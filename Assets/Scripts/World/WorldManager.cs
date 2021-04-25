@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WorldManager : MonoBehaviour
 {
+    [SerializeField] private float _totalDistanceRequired = 100f;
+
     [SerializeField] private WorldSection _firstSection = null;
     [SerializeField] private List<WorldSection> _worldSections = null;
     [SerializeField] private WorldSection _finalSection = null;
@@ -70,6 +72,11 @@ public class WorldManager : MonoBehaviour
 
     private void PlacePossibleNewWorldSection()
     {
+        if(_isFinalSectionCurrent)
+        {
+            return;
+        }
+
         var playerPosition = Player.Get().GetPosition();
 
         var currentWorldSection = GetCurrentWorldSection();
@@ -81,20 +88,28 @@ public class WorldManager : MonoBehaviour
 
             // Trigger the next world section.
 
-            // Pick a random inactive section to place.
-            var randomIndex = Random.Range(0, _inactiveIndices.Count);
-            var newWorldSectionIndex = _inactiveIndices[randomIndex];
-            var newWorldSection = _worldSections[newWorldSectionIndex];
-            _inactiveIndices.Remove(newWorldSectionIndex);
-            _activeIndices.Add(newWorldSectionIndex);
+            WorldSection newWorldSection = null;
+            if(HasPlayerTraveledRequiredDistance())
+            {
+                newWorldSection = _finalSection;
+                _isFinalSectionCurrent = true;
+            }
+            else
+            {
+                // Pick a random inactive section to place.
+                var randomIndex = Random.Range(0, _inactiveIndices.Count);
+                var newWorldSectionIndex = _inactiveIndices[randomIndex];
+                newWorldSection = _worldSections[newWorldSectionIndex];
+                _inactiveIndices.Remove(newWorldSectionIndex);
+                _activeIndices.Add(newWorldSectionIndex);
+                _currentIndex = newWorldSectionIndex;
+            }
 
             var currentSectionBounds = currentWorldSection.GetBoxCollider2D();
             var newSectionPlacementPosition = currentSectionBounds.bounds.min;
             newSectionPlacementPosition.x = currentSectionBounds.bounds.center.x;
 
             newWorldSection.Place(newSectionPlacementPosition);
-
-            _currentIndex = newWorldSectionIndex;
         }
     }
 
@@ -140,5 +155,13 @@ public class WorldManager : MonoBehaviour
                 _firstSection.Deactivate();
             }
         }
+    }
+
+    private bool HasPlayerTraveledRequiredDistance()
+    {
+        var startPosition = _firstSection.GetPossiblePlayerStartPos().position;
+        var playerPosition = Player.Get().GetPosition();
+
+        return ((playerPosition - startPosition).sqrMagnitude > _totalDistanceRequired * _totalDistanceRequired);
     }
 }

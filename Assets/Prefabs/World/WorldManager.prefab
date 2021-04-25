@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab3b6450ca1aac84b93ab68a9b3eac3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _totalDistanceRequired: 666
   _firstSection: {fileID: 8289164469094036612}
   _worldSections:
   - {fileID: 8289164469107442295}
