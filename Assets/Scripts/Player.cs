@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private Animator _animator = null;
     [SerializeField] private float _movementSpeed = 1f;
 
-    private CharacterController2D _characterController2D = null; 
+    private CharacterController2D _characterController2D = null;
+
+    // State variables:
+    private float _horizontalMove = 0f;
+    private bool _jump = false;
+    private bool _crouch = false;
 
     private void Awake()
     {
         _characterController2D = this.GetComponent<CharacterController2D>();
+        _animator = this.GetComponent<Animator>();
     }
 
     private void Update()
@@ -25,31 +32,43 @@ public class Player : MonoBehaviour
 
     private void UpdatePlayerMovement()
     {
-        //Input.GetKey()
+        _horizontalMove = Input.GetAxisRaw("Horizontal") * _movementSpeed;
 
-        //var movementInput = 0f;
-        var movementTarget = 0f;
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            movementTarget -= _movementSpeed;
-        }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            movementTarget += _movementSpeed;
-        }
-
-        var doJump = false;
+        //var doJump = false;
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            doJump = true;
-        }
-        
-        var doCrouch = false;
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            doCrouch = true;
+            _jump = true;
         }
 
-        _characterController2D.Move(movementTarget, doCrouch, doJump);
+        if (Input.GetButtonDown("Jump"))
+        {
+            _jump = true;
+            _animator?.SetBool("IsJumping", true);
+        }
+
+        //if (Input.GetButtonDown("Crouch"))
+        //{
+        //    _crouch = true;
+        //}
+        //else if (Input.GetButtonUp("Crouch"))
+        //{
+        //    _crouch = false;
+        //}
+    }
+
+    public void OnLanding()
+    {
+        _animator?.SetBool("IsJumping", false);
+    }
+
+    public void OnCrouching(bool isCrouching)
+    {
+        _animator?.SetBool("IsCrouching", isCrouching);
+    }
+
+    private void FixedUpdate()
+    {
+        _characterController2D.Move(_horizontalMove, _crouch, _jump);
+        _jump = false;
     }
 }
