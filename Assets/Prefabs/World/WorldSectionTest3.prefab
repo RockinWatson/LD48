@@ -829,6 +829,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 775955135819695836, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.6
+      objectReference: {fileID: 0}
     - target: {fileID: 1028605720277671752, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -841,9 +845,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3394593335747346791, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3517339144701563119, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3527764915616154906, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_Size.y
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4417610135423621353, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_Name
