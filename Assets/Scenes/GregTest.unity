@@ -128,6 +128,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1460495105605965028, guid: 1717fb3e92b38a5448d6ccec8cf9d475, type: 3}
   m_PrefabInstance: {fileID: 1460495104168904666}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1628113157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8058883527983310569, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+  m_PrefabInstance: {fileID: 945043849669129314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!60 &1628113158
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628113157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.28, y: 3.58}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -4.14, y: 1.79}
+      - {x: -4.14, y: -1.79}
+      - {x: 4.14, y: -1.79}
+      - {x: 4.14, y: 1.79}
 --- !u!1001 &945043849669129314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,9 +169,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1028605720277671752, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3266571555177818106, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_Name
       value: World
+      objectReference: {fileID: 0}
+    - target: {fileID: 3517339144701563119, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8759505131773049395, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_RootOrder
@@ -206,7 +248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1460495105605965028, guid: 1717fb3e92b38a5448d6ccec8cf9d475, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.86
+      value: -1.22
       objectReference: {fileID: 0}
     - target: {fileID: 1460495105605965028, guid: 1717fb3e92b38a5448d6ccec8cf9d475, type: 3}
       propertyPath: m_LocalPosition.z
@@ -249,6 +291,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 318923936, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 1628113158}
     - target: {fileID: 15558546801396434, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
       propertyPath: m_Name
       value: CameraSetup
