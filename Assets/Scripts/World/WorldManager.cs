@@ -4,22 +4,35 @@ using UnityEngine;
 
 public class WorldManager : MonoBehaviour
 {
+    [SerializeField] private WorldSection _firstSection = null;
     [SerializeField] private List<WorldSection> _worldSections = null;
+    [SerializeField] private WorldSection _finalSection = null;
 
     private List<int> _activeIndices = new List<int>();
     private List<int> _inactiveIndices = new List<int>();
+
+    private bool _isFirstSectionCurrent = false;
+    private bool _isFinalSectionCurrent = false;
 
     private int _currentIndex = 0;
 
     private void Awake()
     {
-        UpdateIndicesTracking();
-
-        _currentIndex = _activeIndices[0];
+        InitializeWorldSections();
     }
 
-    private void UpdateIndicesTracking()
+    private void Start()
     {
+        // Spawn Player at Starting Position.
+        SpawnPlayerAtStartPosition();
+    }
+
+    private void InitializeWorldSections()
+    {
+        // Set First Section to be active.
+        _firstSection.gameObject.SetActive(true);
+        _isFirstSectionCurrent = true;
+
         for (var i = 0; i < _worldSections.Count; ++i)
         {
             var worldSection = _worldSections[i];
@@ -32,6 +45,15 @@ public class WorldManager : MonoBehaviour
                 _inactiveIndices.Add(i);
             }
         }
+
+        _finalSection.gameObject.SetActive(false);
+        _isFinalSectionCurrent = false;
+}
+
+    private void SpawnPlayerAtStartPosition()
+    {
+        var player = Player.Get();
+        player.gameObject.transform.position = _firstSection.GetPossiblePlayerStartPos().position;
     }
 
     private void Update()
@@ -50,16 +72,14 @@ public class WorldManager : MonoBehaviour
     {
         var playerPosition = Player.Get().GetPosition();
 
-        var currentWorldSection = _worldSections[_currentIndex];
+        var currentWorldSection = GetCurrentWorldSection();
         var triggerPosition = currentWorldSection.GetTriggerPosition();
 
         if (playerPosition.y <= triggerPosition.y)
         {
-            // Trigger the next world section.
-            var currentSectionBounds = currentWorldSection.GetBoxCollider2D();
+            _isFirstSectionCurrent = false;
 
-            var newSectionPlacementPosition = currentSectionBounds.bounds.min;
-            newSectionPlacementPosition.x = currentSectionBounds.bounds.center.x;
+            // Trigger the next world section.
 
             // Pick a random inactive section to place.
             var randomIndex = Random.Range(0, _inactiveIndices.Count);
@@ -68,10 +88,27 @@ public class WorldManager : MonoBehaviour
             _inactiveIndices.Remove(newWorldSectionIndex);
             _activeIndices.Add(newWorldSectionIndex);
 
+            var currentSectionBounds = currentWorldSection.GetBoxCollider2D();
+            var newSectionPlacementPosition = currentSectionBounds.bounds.min;
+            newSectionPlacementPosition.x = currentSectionBounds.bounds.center.x;
+
             newWorldSection.Place(newSectionPlacementPosition);
 
             _currentIndex = newWorldSectionIndex;
         }
+    }
+
+    private WorldSection GetCurrentWorldSection()
+    {
+        if(_isFirstSectionCurrent)
+        {
+            return _firstSection;
+        }
+        if(_isFinalSectionCurrent)
+        {
+            return _finalSection;
+        }
+        return _worldSections[_currentIndex];
     }
 
     private void CullOldActiveWorldSections()
@@ -83,7 +120,7 @@ public class WorldManager : MonoBehaviour
         foreach(var activeIndex in _activeIndices)
         {
             var worldSection = _worldSections[activeIndex];
-            if(worldSection.GetPosition().y >= upperLimit.y)
+            if(worldSection.GetLowestPosition().y >= upperLimit.y)
             {
                 worldSection.Deactivate();
                 //_activeIndices.Remove(activeIndex);
@@ -93,6 +130,15 @@ public class WorldManager : MonoBehaviour
         foreach(var inactiveIndex in _inactiveIndices)
         {
             _activeIndices.Remove(inactiveIndex);
+        }
+
+        // Special case for First Section:
+        if (_firstSection.gameObject.activeInHierarchy)
+        {
+            if (_firstSection.GetLowestPosition().y >= upperLimit.y)
+            {
+                _firstSection.Deactivate();
+            }
         }
     }
 }

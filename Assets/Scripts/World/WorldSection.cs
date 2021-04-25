@@ -7,16 +7,15 @@ public class WorldSection : MonoBehaviour
     [SerializeField] private BoxCollider2D _boxCollider2D = null;
     public BoxCollider2D GetBoxCollider2D() { return _boxCollider2D; }
 
+    [SerializeField] private Transform _possiblePlayerStartPos = null;
+    public Transform GetPossiblePlayerStartPos() { return _possiblePlayerStartPos; }
+
     public Vector3 GetPosition() { return this.gameObject.transform.position; }
+    public Vector3 GetLowestPosition() { return _boxCollider2D.bounds.min; }
 
     public Vector3 GetTriggerPosition() { return GetPosition(); }
 
     public bool IsActive() { return this.gameObject.activeInHierarchy; }
-
-    //private void Awake()
-    //{
-    //    _boxCollider2D = this.GetComponent<BoxCollider2D>();
-    //}
 
     public void Place(Vector3 startPoint)
     {
