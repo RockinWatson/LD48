@@ -14,8 +14,13 @@ public class Player : MonoBehaviour
     private bool _jump = false;
     private bool _crouch = false;
 
+    private static Player _instance = null;
+    public static Player Get() { return _instance; }
+
     private void Awake()
     {
+        _instance = this;
+
         _characterController2D = this.GetComponent<CharacterController2D>();
         _animator = this.GetComponent<Animator>();
     }
