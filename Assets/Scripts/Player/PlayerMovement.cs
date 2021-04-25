@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Animator _animator = null;
     [SerializeField] private float _movementSpeed = 1f;
@@ -14,13 +14,8 @@ public class Player : MonoBehaviour
     private bool _jump = false;
     private bool _crouch = false;
 
-    private static Player _instance = null;
-    public static Player Get() { return _instance; }
-
     private void Awake()
     {
-        _instance = this;
-
         _characterController2D = this.GetComponent<CharacterController2D>();
         _animator = this.GetComponent<Animator>();
     }
