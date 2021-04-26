@@ -17,9 +17,11 @@ public class GoombaHead : MonoBehaviour
         {
             KillHost();
 
-            var player = Player.Get().GetRigidBody2d();
-            player.velocity = Vector2.zero;
-            player.AddForce(new Vector2(0f, 150f));
+            var player = Player.Get();
+            player.GetCharacterController2D().ResetDoubleJump();
+            var playerRigidBody = player.GetRigidBody2d();
+            playerRigidBody.velocity = Vector2.zero;
+            playerRigidBody.AddForce(new Vector2(0f, 150f));
         }
     }
 

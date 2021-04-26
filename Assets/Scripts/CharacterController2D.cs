@@ -21,6 +21,7 @@ public class CharacterController2D : MonoBehaviour
 	private Vector3 m_Velocity = Vector3.zero;
 
 	private bool m_doubleJumpUsed = false;
+	public void ResetDoubleJump() { m_doubleJumpUsed = false; }
 
 	[Header("Events")]
 	[Space]

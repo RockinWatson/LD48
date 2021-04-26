@@ -6,6 +6,9 @@ public class Player : MonoBehaviour
 {
     public Vector3 GetPosition() { return this.gameObject.transform.position; }
 
+    private CharacterController2D _characterController2D = null;
+    public CharacterController2D GetCharacterController2D() { return _characterController2D; }
+
     private Rigidbody2D _rigidbody2D = null;
     public Rigidbody2D GetRigidBody2d() { return _rigidbody2D; }
 
@@ -16,6 +19,7 @@ public class Player : MonoBehaviour
     {
         _instance = this;
 
+        _characterController2D = this.GetComponent<CharacterController2D>();
         _rigidbody2D = this.GetComponent<Rigidbody2D>();
     }
 }
