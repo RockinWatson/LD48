@@ -19,12 +19,17 @@ public class WorldSection : MonoBehaviour
 
     public void Place(Vector3 startPoint)
     {
-        var bounds = (Vector3)_boxCollider2D.size / 2f;
-        bounds.x = _boxCollider2D.bounds.center.x;
-        var centerStartPoint = startPoint - bounds;
+        var halfSize = (Vector3)_boxCollider2D.size / 2f;
+        halfSize.x = _boxCollider2D.bounds.center.x;
+        var centerStartPoint = startPoint - halfSize;
 
         this.gameObject.transform.position = centerStartPoint;
         this.gameObject.SetActive(true);
+
+        var fullSize = _boxCollider2D.size;
+        var newBounds = new Bounds(centerStartPoint, fullSize);
+        newBounds.Expand(new Vector3(0f, 0f, 7000f));
+        AstarPath.active.UpdateGraphs(newBounds);
 
         ActivateAllChildrenHotSpots();
     }
