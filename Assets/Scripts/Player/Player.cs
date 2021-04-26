@@ -19,6 +19,16 @@ public class Player : MonoBehaviour
     private float _health;
     public float GetHealthPercent() { return _health / _startingHealth * 100f; }
 
+    [SerializeField] private float _maximumTemperature = 666f;
+    [SerializeField] private float _startingTemperature = 200f;
+    private float _temperature;
+    public float GetTemperatureScale() { return _temperature / _maximumTemperature; }
+
+    [SerializeField] private float _maximumDepth = 200f;
+    [SerializeField] private float _startingDepth = 0.5f;
+    private float _depth;
+    public float GetDepthScale() { return _depth / _maximumDepth; }
+
     private void Awake()
     {
         _instance = this;
@@ -30,6 +40,8 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _health = _startingHealth;
+        _temperature = _startingTemperature;
+        _depth = _startingDepth;
     }
 
     public void TakeDamage(float damage)
