@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public float GetHealthPercent() { return _health / _startingHealth * 100f; }
 
     [SerializeField] private float _maximumTemperature = 666f;
+    [SerializeField] private float _temperatureLostPerMinute = 100f;
     [SerializeField] private float _startingTemperature = 200f;
     private float _temperature;
     public float GetTemperatureScale() { return _temperature / _maximumTemperature; }
@@ -58,5 +59,21 @@ public class Player : MonoBehaviour
     private void Die()
     {
         Debug.LogError("Player has Died");
+    }
+
+    public void AddHeat(float heat)
+    {
+        _temperature = Mathf.Min(_temperature + heat, _maximumTemperature);
+    }
+
+    private void Update()
+    {
+        UpdateTemperature();
+    }
+
+    private void UpdateTemperature()
+    {
+        var heatLost = _temperatureLostPerMinute * Time.deltaTime / 60f;
+        _temperature = Mathf.Max(0f, _temperature - heatLost);
     }
 }
