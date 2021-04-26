@@ -27,5 +27,6 @@ public class GoombaHead : MonoBehaviour
     {
         var host = this.GetComponentInParent<EnemyBase>();
         host.Kill();
+        GameplayAudioInit.playerDamage1.Play();
     }
 }
