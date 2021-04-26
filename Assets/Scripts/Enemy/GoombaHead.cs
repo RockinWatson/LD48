@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class GoombaHead : MonoBehaviour
 {
-    private Collider2D _collider2D = null;
-
-    private void Awake()
-    {
-        _collider2D = this.GetComponent<Collider2D>();
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")

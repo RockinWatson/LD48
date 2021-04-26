@@ -15,11 +15,35 @@ public class Player : MonoBehaviour
     private static Player _instance = null;
     public static Player Get() { return _instance; }
 
+    [SerializeField] private float _startingHealth = 100f;
+    private float _health;
+
     private void Awake()
     {
         _instance = this;
 
         _characterController2D = this.GetComponent<CharacterController2D>();
         _rigidbody2D = this.GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        _health = _startingHealth;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        _health -= damage;
+
+        if (_health <= 0f)
+        {
+            _health = 0f;
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.LogError("Player has Died");
     }
 }

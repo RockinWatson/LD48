@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5209061417618187589}
   - component: {fileID: 5507071764714609450}
+  - component: {fileID: 8070254787486868634}
   m_Layer: 0
   m_Name: Talons
   m_TagString: Untagged
@@ -47,6 +48,20 @@ CircleCollider2D:
   m_Offset: {x: -0.1441797, y: -0.24736762}
   serializedVersion: 2
   m_Radius: 0.41660202
+--- !u!114 &8070254787486868634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2233078591632702519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a474d10ad6d8d954581b7e8e39b8c75e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackDamage: 3
+  _knockBackForce: 400
 --- !u!1 &3778283959904476308
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,7 +78,7 @@ GameObject:
   - component: {fileID: 4091396078810807090}
   - component: {fileID: 642945103540355491}
   m_Layer: 0
-  m_Name: EnemyBat
+  m_Name: EnemyGargoyle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -252,6 +267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7190116175313150272}
   - component: {fileID: 3760897753410125362}
+  - component: {fileID: 3775579818368373009}
   m_Layer: 0
   m_Name: RightWing
   m_TagString: Untagged
@@ -289,6 +305,20 @@ CircleCollider2D:
   m_Offset: {x: 0.63891584, y: 0.11590922}
   serializedVersion: 2
   m_Radius: 0.45194048
+--- !u!114 &3775579818368373009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5129352173960040158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a474d10ad6d8d954581b7e8e39b8c75e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackDamage: 3
+  _knockBackForce: 600
 --- !u!1 &5248257160293803323
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3910184658392602325}
   - component: {fileID: 5232760152991004029}
+  - component: {fileID: 5923874497175938424}
   m_Layer: 0
   m_Name: LeftWing
   m_TagString: Untagged
@@ -336,6 +367,20 @@ CircleCollider2D:
   m_Offset: {x: -0.7025247, y: 0}
   serializedVersion: 2
   m_Radius: 0.37702292
+--- !u!114 &5923874497175938424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248257160293803323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a474d10ad6d8d954581b7e8e39b8c75e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackDamage: 3
+  _knockBackForce: 600
 --- !u!1 &6346474818737070580
 GameObject:
   m_ObjectHideFlags: 0
