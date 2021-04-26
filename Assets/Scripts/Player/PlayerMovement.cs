@@ -65,6 +65,8 @@ public class PlayerMovement : MonoBehaviour
             _possibleDash = false;
             return;
         }
+        //@NOTE: Turning off double tap to dash, cause it sucks.
+        return;
         if (_possibleDash)
         {
             _dashTimer += Time.deltaTime;
