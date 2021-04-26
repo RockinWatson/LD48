@@ -11,6 +11,7 @@ public class MushroomBounce : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             ApplyBounceForceToPlayer();
+            GameplayAudioInit.bounce.Play();
         }
     }
 
