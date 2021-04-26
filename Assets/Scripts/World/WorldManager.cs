@@ -130,7 +130,7 @@ public class WorldManager : MonoBehaviour
     {
         var playerPosition = Player.Get().GetPosition();
         var bounds = CameraBackgroundBounds.Get().GetBounds();
-        var upperLimit = (bounds.size * 1.5f) + playerPosition;
+        var upperLimit = (bounds.size * 3f) + playerPosition;
 
         foreach(var activeIndex in _activeIndices)
         {
