@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6083316694302815006}
   - component: {fileID: 1711963213295505315}
   - component: {fileID: 7879316338916039850}
+  - component: {fileID: 4681192973535677070}
   m_Layer: 0
   m_Name: Decoration_Mushroom2
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: -1771726651
   m_SortingLayer: 7
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c7091ef2d9c1d640ac11e9178fc19f9, type: 3}
+  m_Sprite: {fileID: 3309293170507682381, guid: c6fcbee79ae25e74d95246446de8758d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -113,6 +114,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bounceForce: 450
+--- !u!95 &4681192973535677070
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596265374112365670}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: af8a152728066c74ea384c448eb9529f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4998808033996524290
 GameObject:
   m_ObjectHideFlags: 0
