@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class EnemyBase : MonoBehaviour
 {
+    [SerializeField] private float _heatTransferAmount = 20f;
+
     public void Kill()
     {
-        Player.Get().AddHeat(5f);
+        Player.Get().AddHeat(_heatTransferAmount);
 
         Destroy(this.gameObject);
     }

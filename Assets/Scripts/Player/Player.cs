@@ -18,6 +18,11 @@ public class Player : MonoBehaviour
     [SerializeField] private float _startingHealth = 100f;
     private float _health;
     public float GetHealthPercent() { return _health / _startingHealth * 100f; }
+    public void AddHealthPercent(float percent)
+    {
+        var amount = _startingHealth * percent / 100f;
+        _health = Mathf.Min(_health + amount, _startingHealth);
+    }
 
     [SerializeField] private float _maximumTemperature = 666f;
     [SerializeField] private float _temperatureLostPerMinute = 100f;
