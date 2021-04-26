@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8241737068784433362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3327919264020865534}
+  - component: {fileID: 7269083243626121777}
+  m_Layer: 6
+  m_Name: DecorationHotSpot_All
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3327919264020865534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241737068784433362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7269083243626121777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241737068784433362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 331c5a83fe688cc4c99e9c1e2ab58226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _features:
+  - {fileID: 6752998639786408860, guid: 6bf6e9b06e45bd544bacf55e0bc00328, type: 3}
+  - {fileID: 8131076640134940402, guid: d9a6ecf9202be3147969dabbd2e8233b, type: 3}
+  - {fileID: 7081324424654729282, guid: aeebf3bd8ad11294cad8d99bc287c8f1, type: 3}
+  - {fileID: 4998808033996524290, guid: 585e6f92451fd4f4e8039ead88e8dfaa, type: 3}
+  - {fileID: 8043863138205082558, guid: d14072ebd83900d47b1c3d463410ebeb, type: 3}
+  - {fileID: 8004950900866965926, guid: 6ca2f7358ee25cf48a7e163afc696f89, type: 3}
+  - {fileID: 1134281162061522374, guid: e94226fb5b76f84449559702c09d1a2b, type: 3}
+  - {fileID: 9078716475364361757, guid: 6846a57290eb02147a9f9d09a4f37cd1, type: 3}
+  - {fileID: 6190846670779632021, guid: dd9e12ce1e59522478125ee2775182c2, type: 3}
+  - {fileID: 7844011158705774736, guid: 47b6f00999238dc4e99a4fca4613eef3, type: 3}
+  - {fileID: 5634060417997017440, guid: 92bebd5125a2f654c8acceacb52c5f44, type: 3}
+  _spawnPoints:
+  - {fileID: 3327919264020865534}

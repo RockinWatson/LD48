@@ -25,10 +25,32 @@ public class WorldSection : MonoBehaviour
 
         this.gameObject.transform.position = centerStartPoint;
         this.gameObject.SetActive(true);
+
+        ActivateAllChildrenHotSpots();
     }
 
     public void Deactivate()
     {
         this.gameObject.SetActive(false);
+
+        DeactivateAllChildrenHotSpots();
+    }
+
+    private void ActivateAllChildrenHotSpots()
+    {
+        var hotSpots = this.GetComponentsInChildren<WorldSectionHotSpotBase>();
+        foreach(var hotSpot in hotSpots)
+        {
+            hotSpot.Activate();
+        }
+    }
+
+    private void DeactivateAllChildrenHotSpots()
+    {
+        var hotSpots = this.GetComponentsInChildren<WorldSectionHotSpotBase>();
+        foreach (var hotSpot in hotSpots)
+        {
+            hotSpot.Deactivate();
+        }
     }
 }
