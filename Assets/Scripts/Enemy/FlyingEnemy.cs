@@ -1,7 +1,7 @@
 using Pathfinding;
 using UnityEngine;
 
-public class FlyingEnemy : MonoBehaviour
+public class FlyingEnemy : EnemyBase
 {
     private Rigidbody2D _rigidBody2D = null;
 

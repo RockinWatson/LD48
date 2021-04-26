@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GroundEnemy : MonoBehaviour
+public class GroundEnemy : EnemyBase
 {
     private Rigidbody2D _rigidBody2D = null;
 
