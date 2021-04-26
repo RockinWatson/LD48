@@ -81,7 +81,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &3818015360800861488
@@ -248,7 +248,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &4157998335041128540
@@ -298,6 +298,92 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &3327167914216558976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20397721794663423}
+  - component: {fileID: 1638212769289955713}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &20397721794663423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327167914216558976}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6455411897979541361}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1638212769289955713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3327167914216558976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACQn+vd9DctagIAABAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE2TojAQ/StWzquFwAjubRcdZw/zUeNuzYVLhEZShoRKwqgz5X/fTgBhHC7G97o773U3fBImdA2ZkWqjWP4ocyA/J8SeyY/JQD7Aie6l2LIP6GPeWG5KG0RdzCs1TCI+t2laVmAUy36JPbfBHoKNYIVU1TrfQyK10QgXlGtASkljswVCnxNywp/p0qac8eRH9vSBp6U3ueAxA2FADaF94NSbhUt8ojgOu4xpPFuGXhwE66kXu+RGZJxWNeTWyVAjiLsi4d3Ms0/Qhgv02kVaX5nknOlOKDHn2jUiobVu0CYG5IyicafOxpfA9qWxJsbJz0WhwXTKFT2vmML+tVXJb9k2taL60Op7p7yx9yxCJ6mt+fiNns4dXShZPfTXzj17hSlZdnil54xqM2r6GF591d2II+UHuuPwVoJ4khslG5EjaVRjUxsN/mr4e3WWlJAdBryVegM29ffR9RO2Hi7O/CnhrNpZaha2wJZL1263GKBwMH9QsFsb3ZVA1Kr4p+Ev3Y/3qyPumdIGqc6lsPJ2slE2lKxdz6ybxiRSCXBwJ7oGQbk5v2AZczvBG2507Q1zT+2b1F3ecf0LcpPi4CHe826oF3m8DkuX8vgIunxuDGcCBtGWeMI+JVKIdsHGPenTto0qaDZK2zcs/7pa5C7LIYqyML7zd0G0gKm/CP1wMY/mNPIDvwiI2z0m0CflL63Qrj04NTEUF7hn/QdmslG0dsueK3rcsI9KjlrORCG3mQIQz22Fq3BQeAm+lPk6Z9igLRjDhJs3+UwJl9kB8vRaKHVO1yejaDpUSUnN3qWxSEoS90VJyYVc/gNQSwMEFAAACAgAAJCf62KynxZtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tJJpckqquXmyiYWpUZKxuVmqrpGZiZGJmaG5YaK5kbFRmrFSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAJCf6930Ny1qAgAAEAUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJCf62KynxZtAAAAeAAAAAkAJAAAAAAAAAAAAAAAtwIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABvAwAAAAA=
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 10
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
 --- !u!1 &4044941558418153812
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +465,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &9188363048880406066
@@ -510,7 +596,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &6463879356800887926
@@ -641,7 +727,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &6908491871585775662
@@ -772,7 +858,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &3217169550019898079
@@ -857,6 +943,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417064611584637709, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8759505131773049395, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -906,5 +996,10 @@ PrefabInstance:
 --- !u!4 &2068462786006095227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4373732578791766073, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+  m_PrefabInstance: {fileID: 2307594989362588994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6455411897979541361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8759505131773049395, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
   m_PrefabInstance: {fileID: 2307594989362588994}
   m_PrefabAsset: {fileID: 0}

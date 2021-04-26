@@ -81,7 +81,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &3818015360800861488
@@ -248,7 +248,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &4157998335041128540
@@ -379,7 +379,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &9188363048880406066
@@ -429,6 +429,92 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &6344633259540809788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6027529693620809085}
+  - component: {fileID: 1598470279847416411}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6027529693620809085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6344633259540809788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6455411897979541361}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1598470279847416411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6344633259540809788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACQn+tuoWVjYwIAAAcFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty4jAQ/BVK54WyCc+97TqE7IEkFXYrF1+EPMYqZMmlR4Ck+PcdyTZ2CBfk6Z5R98zYn4RLUwGzSq81zzYqA/JzQPyZ/Bh04COc6F7JLf+AlvPGM1t4Eg2cV2q5wnjs04wqwWrOfsm98OQIg07yXOlyle0hUcYaDOdUGEBIK+uzJYY+B+SEf8OlTznjaTz3pw88LaPBBY8MpAXdUVtiPJos/W8+a/jj0WwxHkfz6XI1jOYh10kmaFlB5o10Je4WTY3JNNAkWmwY3g5TQnDT6CP2XAX/Ca2MQ3dIyDhFv0GU5xfA94X1CvrJz3luwDaCNT3fc41tq6uS36ruZUnNodb1ToXz98wmQVJdc/MNHsYBzrUqH9tr48hfYQvODq/0zKixvV73w/dfdTt5pOJAdwLeCpBPaq2VkxmCVjuf6gyM77vHq7OkAHbo4rXUm6Crvk+sHaz3cAnmT4ng5c5Do0kd2AoV2h32ATQO5g8KDttimhIY9Sr+GfhL9/21aoAHro1FqHEpvbydctpTySr0zLtxNlFaQgg3oiuQVNjzC5axtxO8wXrX3iAP1L9AzeUN1r4XNykh3PGj6AZ6UcfrsEyhjhswxbOzgkvoRHvgCfuUKCnrBev3pE3bOp1T1kvbO559XS2SM7rI8zibjWkUxXfxcB4t4+liOtmxGZ3eQUzC7nGJPql4qYU27cGpya64xD1rvyuDtaZVWPZM0+Oaf5Sq13Iuc7VlGkA+1xWuwkHjJfhSZquMY4O2YC2XYd7kMyVCsQNk6bVQGpyuTlbTtKuSkoq/K+sjKUnChyQlF3L5D1BLAwQUAAAICAAAkJ/rc25ium0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNVRUEovSizIKAaKGII4pZkpIHa0UlpyokVammGKmVGigYGhsaGuuYGloamFqUlSslmiqXGqoVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAkJ/rbqFlY2MCAAAHBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAkJ/rc25ium0AAAB4AAAACQAkAAAAAAAAAAAAAACwAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAGgDAAAAAA==
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 1
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
 --- !u!1 &6482241669956198259
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +596,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &6463879356800887926
@@ -641,7 +727,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &6908491871585775662
@@ -772,7 +858,7 @@ SpriteRenderer:
   m_Size: {x: 80, y: 5}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &3217169550019898079
@@ -857,6 +943,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417064611584637709, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8759505131773049395, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -906,5 +996,10 @@ PrefabInstance:
 --- !u!4 &2068462786006095227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4373732578791766073, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+  m_PrefabInstance: {fileID: 2307594989362588994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6455411897979541361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8759505131773049395, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
   m_PrefabInstance: {fileID: 2307594989362588994}
   m_PrefabAsset: {fileID: 0}
