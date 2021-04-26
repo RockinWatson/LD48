@@ -139,7 +139,8 @@ public class CharacterController2D : MonoBehaviour
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-		}
+            GameplayAudioInit.jump.Play();
+        }
 	}
 
 
@@ -159,5 +160,6 @@ public class CharacterController2D : MonoBehaviour
 		var dashForce = new Vector2(m_DashForce, 0f);
 		dashForce *= (m_FacingRight ? 1f : -1f);
 		m_Rigidbody2D.AddForce(dashForce);
-	}
+        GameplayAudioInit.dash.Play();
+    }
 }
