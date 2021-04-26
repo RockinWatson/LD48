@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private float _startingHealth = 100f;
     private float _health;
+    public float GetHealthPercent() { return _health / _startingHealth * 100f; }
 
     private void Awake()
     {
