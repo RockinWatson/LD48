@@ -56,3 +56,6 @@ TagManager:
   - name: Player
     uniqueID: 2951090741
     locked: 0
+  - name: Decorations
+    uniqueID: 2523240645
+    locked: 0
