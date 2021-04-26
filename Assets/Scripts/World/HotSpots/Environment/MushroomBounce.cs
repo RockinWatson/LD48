@@ -17,8 +17,10 @@ public class MushroomBounce : MonoBehaviour
 
     private void ApplyBounceForceToPlayer()
     {
-        var player = Player.Get().GetRigidBody2d();
-
-        player.AddForce(new Vector2(0f, _bounceForce));
+        var player = Player.Get();
+        player.GetCharacterController2D().ResetDoubleJump();
+        var playerRigidBody = player.GetRigidBody2d();
+        playerRigidBody.velocity = Vector2.zero;
+        playerRigidBody.AddForce(new Vector2(0f, _bounceForce));
     }
 }
