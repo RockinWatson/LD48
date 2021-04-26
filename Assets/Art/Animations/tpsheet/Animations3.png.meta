@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: 77ebf6f69e423e44d8335051678a7f01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1701895729980605996
+    second: Explode-Enemy_000
+  - first:
+      213: 3971605029122234885
+    second: Explode-Enemy_001
+  - first:
+      213: 4845161312003874107
+    second: Explode-Enemy_002
+  - first:
+      213: 5285772707444256299
+    second: Explode-Enemy_003
+  - first:
+      213: -6924918014554675550
+    second: Explode-Enemy_004
+  - first:
+      213: 2086302412236185163
+    second: Explode-Enemy_005
+  - first:
+      213: -8968480581660105561
+    second: Explode-Enemy_006
+  - first:
+      213: 4601818329553248493
+    second: Explode-Enemy_007
+  - first:
+      213: -5678564684826450063
+    second: Explode-Enemy_008
+  - first:
+      213: -9142554766383215511
+    second: Explode-Enemy_009
+  - first:
+      213: -7660313319044142435
+    second: Explode-Enemy_010
+  - first:
+      213: -4410205855218814145
+    second: Explode-Enemy_011
+  - first:
+      213: -5203379537965095106
+    second: Explode-Enemy_012
+  - first:
+      213: -276509712447285689
+    second: Explode-Enemy_013
+  - first:
+      213: -6216696970258461775
+    second: Explode-Enemy_014
+  - first:
+      213: 3957584743267841788
+    second: Explode-Enemy_015
+  - first:
+      213: -6061876618618853045
+    second: Explode-Enemy_016
+  - first:
+      213: -5078858640241138362
+    second: Explode-Enemy_017
+  - first:
+      213: 129237278442729976
+    second: Explode-Enemy_018
+  - first:
+      213: -5552820730278976118
+    second: Explode-Enemy_019
+  - first:
+      213: 7834197605887600614
+    second: Explode-Enemy_020
+  - first:
+      213: 4588952005095586395
+    second: Explode-Enemy_021
+  - first:
+      213: -8713908081717982979
+    second: Explode-Enemy_022
+  - first:
+      213: -1764393336400418658
+    second: Explode-Enemy_023
+  - first:
+      213: 4181591296017519852
+    second: Explode-Enemy_024
+  - first:
+      213: -4694415195271878986
+    second: Explode-Enemy_025
+  - first:
+      213: 1018974765504700988
+    second: Explode-Enemy_026
+  - first:
+      213: -7558781738398361400
+    second: Explode-Enemy_027
+  - first:
+      213: -4958413674697299823
+    second: Explode-Enemy_028
+  - first:
+      213: -3615367417179690286
+    second: Explode-Enemy_029
+  - first:
+      213: 7701390153159400333
+    second: OrbBlue_000
+  - first:
+      213: 6972498504541839916
+    second: OrbBlue_001
+  - first:
+      213: -6197180624666287083
+    second: OrbBlue_002
+  - first:
+      213: -4955041477046205624
+    second: OrbBlue_003
+  - first:
+      213: -2285792604567810344
+    second: OrbBlue_004
+  - first:
+      213: 7959631277660314508
+    second: OrbBlue_005
+  - first:
+      213: -4399635051788037251
+    second: OrbBlue_006
+  - first:
+      213: -2839732272094908480
+    second: OrbBlue_007
+  - first:
+      213: -5338173266214726827
+    second: OrbBlue_008
+  - first:
+      213: 6118562467083692109
+    second: OrbBlue_009
+  - first:
+      213: 4775249230616694535
+    second: OrbBlue_010
+  - first:
+      213: -4517873320164618953
+    second: OrbBlue_011
+  - first:
+      213: -428037619464101719
+    second: OrbBlue_012
+  - first:
+      213: 2383184185583873611
+    second: OrbBlue_013
+  - first:
+      213: -3919550062517897289
+    second: OrbBlue_014
+  - first:
+      213: 1313742851265955830
+    second: OrbRed_000
+  - first:
+      213: -7010778452872195733
+    second: OrbRed_001
+  - first:
+      213: -5910441460696352838
+    second: OrbRed_002
+  - first:
+      213: 5597914205966227785
+    second: OrbRed_003
+  - first:
+      213: -1870350353865041112
+    second: OrbRed_004
+  - first:
+      213: -8269240325878531260
+    second: OrbRed_005
+  - first:
+      213: 7832092222572083228
+    second: OrbRed_006
+  - first:
+      213: -509877241855232028
+    second: OrbRed_007
+  - first:
+      213: -3807965267148942226
+    second: OrbRed_008
+  - first:
+      213: 7444314294791027247
+    second: OrbRed_009
+  - first:
+      213: 6348051329702040170
+    second: OrbRed_010
+  - first:
+      213: -2202842334221375587
+    second: OrbRed_011
+  - first:
+      213: -5796279259309267185
+    second: OrbRed_012
+  - first:
+      213: 7672095072713032572
+    second: OrbRed_013
+  - first:
+      213: 554146710000255016
+    second: OrbRed_014
+  - first:
+      213: 3279543888213913518
+    second: SkellyArm_000
+  - first:
+      213: -3170232991485001074
+    second: SkellyArm_001
+  - first:
+      213: -6875019598412086222
+    second: SkellyArm_002
+  - first:
+      213: 3298765911943064219
+    second: SkellyArm_003
+  - first:
+      213: -5453822817169076026
+    second: SkellyArm_004
+  - first:
+      213: 6678538083760104162
+    second: SkellyArm_005
+  - first:
+      213: 3937161654318029195
+    second: SkellyArm_006
+  - first:
+      213: -9045782557686312855
+    second: SkellyArm_007
+  - first:
+      213: -6115420575249185410
+    second: SkellyArm_008
+  - first:
+      213: -7890066021630229587
+    second: SkellyArm_009
+  - first:
+      213: 8479541919702825032
+    second: SkellyArm_010
+  - first:
+      213: 7345434871888714158
+    second: SkellyArm_011
+  - first:
+      213: 1623401641753272940
+    second: SkellyArm_012
+  - first:
+      213: -977262165609050808
+    second: SkellyArm_013
+  - first:
+      213: 4351322535716215994
+    second: SkellyArm_014
+  - first:
+      213: 9192865340807264506
+    second: Top-Bacon_000
+  - first:
+      213: 1557119125349895635
+    second: Top-Bacon_001
+  - first:
+      213: 7222593854358636553
+    second: Top-Bacon_002
+  - first:
+      213: 3809460979387849481
+    second: Top-Bacon_003
+  - first:
+      213: -5589032295513102451
+    second: Top-Bacon_004
+  - first:
+      213: -5947694368682718196
+    second: Top-Bacon_005
+  - first:
+      213: -7682216027756434406
+    second: Top-Bacon_006
+  - first:
+      213: -1464382905481548015
+    second: Top-Bacon_007
+  - first:
+      213: 3301618193089253505
+    second: Top-Bacon_008
+  - first:
+      213: -2197355852986759054
+    second: Top-Bacon_009
+  - first:
+      213: -4132325535319128364
+    second: Top-Bacon_010
+  - first:
+      213: 7554801992825594335
+    second: Top-Bacon_011
+  - first:
+      213: -8342169575403610018
+    second: Top-Bacon_012
+  - first:
+      213: -44323754059432934
+    second: Top-Bacon_013
+  - first:
+      213: -9092622561698910116
+    second: Top-Bacon_014
+  - first:
+      213: 8675293330160575906
+    second: Top-Mushroom_000
+  - first:
+      213: -822610772267363007
+    second: Top-Mushroom_001
+  - first:
+      213: -5431953966786841868
+    second: Top-Mushroom_002
+  - first:
+      213: -4523271563895247030
+    second: Top-Mushroom_003
+  - first:
+      213: 5278412935355686909
+    second: Top-Mushroom_004
+  - first:
+      213: -6421515930674540874
+    second: Top-Mushroom_005
+  - first:
+      213: -5872862014857161886
+    second: Top-Mushroom_006
+  - first:
+      213: -1494598286490440221
+    second: Top-Mushroom_007
+  - first:
+      213: -5168466959515090638
+    second: Top-Mushroom_008
+  - first:
+      213: 3262851318368820664
+    second: Top-Mushroom_009
+  - first:
+      213: -7915838920238991038
+    second: Top-Mushroom_010
+  - first:
+      213: 6203597943914449922
+    second: Top-Mushroom_011
+  - first:
+      213: -4365706871794481888
+    second: Top-Mushroom_012
+  - first:
+      213: -6119644644607778905
+    second: Top-Mushroom_013
+  - first:
+      213: -6279371140854690486
+    second: Top-Mushroom_014
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explode-Enemy_000
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1666
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 244.5, y: -249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c268f3e36295e9710800000000000000
+      internalID: 1701895729980605996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_001
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1208
+        width: 287
+        height: 280
+      alignment: 9
+      pivot: {x: 0.40243903, y: 0.4892857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a5cf44bb9fd1730800000000000000
+      internalID: 3971605029122234885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1177
+        width: 427
+        height: 422
+      alignment: 9
+      pivot: {x: 0.46252927, y: 0.5165877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dd471ea887d3340800000000000000
+      internalID: 4845161312003874107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1601
+        width: 399
+        height: 446
+      alignment: 9
+      pivot: {x: 0.4273183, y: 0.47309417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e6baea546da5940800000000000000
+      internalID: 5285772707444256299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_004
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1669
+        width: 392
+        height: 378
+      alignment: 9
+      pivot: {x: 0.40433672, y: 0.5132275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6e3cb61cfb5ef90800000000000000
+      internalID: -6924918014554675550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 432
+        width: 390
+        height: 366
+      alignment: 9
+      pivot: {x: 0.39102563, y: 0.5027322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ed06f7df804fc10800000000000000
+      internalID: 2086302412236185163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 800
+        width: 386
+        height: 375
+      alignment: 9
+      pivot: {x: 0.44170985, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a429239d6e898380800000000000000
+      internalID: -8968480581660105561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_007
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 832
+        width: 438
+        height: 343
+      alignment: 9
+      pivot: {x: 0.45776257, y: 0.51603496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de027e5a361fcdf30800000000000000
+      internalID: 4601818329553248493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 432
+        height: 334
+      alignment: 9
+      pivot: {x: 0.4548611, y: 0.51197606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17767d6618fa131b0800000000000000
+      internalID: -5678564684826450063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_009
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 502
+        width: 388
+        height: 328
+      alignment: 9
+      pivot: {x: 0.46005154, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c8c2a11ee1f1180800000000000000
+      internalID: -9142554766383215511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_010
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1345
+        width: 363
+        height: 322
+      alignment: 9
+      pivot: {x: 0.47245178, y: 0.51552796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a2e265f9911b590800000000000000
+      internalID: -7660313319044142435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_011
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1358
+        width: 372
+        height: 309
+      alignment: 9
+      pivot: {x: 0.43951613, y: 0.5339806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33b555142dcbc2c0800000000000000
+      internalID: -4410205855218814145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_012
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1755
+        width: 352
+        height: 292
+      alignment: 9
+      pivot: {x: 0.43323863, y: 0.49657536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37ed0001e1e9c7b0800000000000000
+      internalID: -5203379537965095106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_013
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1764
+        width: 344
+        height: 283
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.5123675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74652aca1e3a92cf0800000000000000
+      internalID: -276509712447285689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_014
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1760
+        width: 349
+        height: 287
+      alignment: 9
+      pivot: {x: 0.4025788, y: 0.5191638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb4f730b0bd9b9a0800000000000000
+      internalID: -6216696970258461775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_015
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1486
+        width: 308
+        height: 276
+      alignment: 9
+      pivot: {x: 0.42045453, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf63cf61b5a2ce630800000000000000
+      internalID: 3957584743267841788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_016
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1490
+        width: 298
+        height: 268
+      alignment: 9
+      pivot: {x: 0.4010067, y: 0.5335821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b492af22553efdba0800000000000000
+      internalID: -6061876618618853045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_017
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1096
+        width: 285
+        height: 260
+      alignment: 9
+      pivot: {x: 0.3982456, y: 0.5346154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645e004c9f44489b0800000000000000
+      internalID: -5078858640241138362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_018
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1208
+        width: 260
+        height: 276
+      alignment: 9
+      pivot: {x: 0.38653848, y: 0.57608694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f13159be942bc100800000000000000
+      internalID: 129237278442729976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_019
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1208
+        width: 255
+        height: 243
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0.5020576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85eb4647fa60f2b0800000000000000
+      internalID: -5552820730278976118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_020
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 971
+        width: 244
+        height: 235
+      alignment: 9
+      pivot: {x: 0.36270493, y: 0.54468083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e765271739a8bc60800000000000000
+      internalID: 7834197605887600614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_021
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1453
+        width: 228
+        height: 221
+      alignment: 9
+      pivot: {x: 0.36622807, y: 0.5248869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5af90b098b3faf30800000000000000
+      internalID: 4588952005095586395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_022
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 283
+        width: 239
+        height: 217
+      alignment: 9
+      pivot: {x: 0.37029287, y: 0.5299539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df84bc794caf11780800000000000000
+      internalID: -8713908081717982979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_023
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 67
+        width: 209
+        height: 214
+      alignment: 9
+      pivot: {x: 0.35645932, y: 0.5373832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9869c3db9d9387e0800000000000000
+      internalID: -1764393336400418658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_024
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 77
+        width: 208
+        height: 204
+      alignment: 9
+      pivot: {x: 0.38221154, y: 0.53431374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce45df2f02ff70a30800000000000000
+      internalID: 4181591296017519852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_025
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1853
+        width: 198
+        height: 194
+      alignment: 9
+      pivot: {x: 0.38131315, y: 0.53092784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6af9180461adeb0800000000000000
+      internalID: -4694415195271878986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_026
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 305
+        width: 201
+        height: 195
+      alignment: 9
+      pivot: {x: 0.34079602, y: 0.5589744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32aef48620242e00800000000000000
+      internalID: 1018974765504700988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_027
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 124
+        width: 176
+        height: 179
+      alignment: 9
+      pivot: {x: 0.36079547, y: 0.5363129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c85e0c9e00d91790800000000000000
+      internalID: -7558781738398361400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_028
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1676
+        width: 182
+        height: 175
+      alignment: 9
+      pivot: {x: 0.32692307, y: 0.5485714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1986a3e980d203bb0800000000000000
+      internalID: -4958413674697299823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Enemy_029
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1182
+        width: 176
+        height: 161
+      alignment: 9
+      pivot: {x: 0.32670453, y: 0.5341615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daab763d72a3ddc0800000000000000
+      internalID: -3615367417179690286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_000
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1097
+        width: 128
+        height: 109
+      alignment: 9
+      pivot: {x: 0.51171875, y: 0.48623854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bd1c36a85d0ea60800000000000000
+      internalID: 7701390153159400333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_001
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1098
+        width: 123
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5243902, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22a820b27a43c060800000000000000
+      internalID: 6972498504541839916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_002
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 753
+        width: 132
+        height: 102
+      alignment: 9
+      pivot: {x: 0.56439394, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51425d15e013ff9a0800000000000000
+      internalID: -6197180624666287083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_003
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 857
+        width: 129
+        height: 112
+      alignment: 9
+      pivot: {x: 0.56201553, y: 0.4642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843855197082c3bb0800000000000000
+      internalID: -4955041477046205624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_004
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 835
+        width: 134
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5634328, y: 0.52678573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de458e9cbb3740e0800000000000000
+      internalID: -2285792604567810344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_005
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1099
+        width: 132
+        height: 107
+      alignment: 9
+      pivot: {x: 0.54924244, y: 0.5233645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b1800a97a467e60800000000000000
+      internalID: 7959631277660314508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_006
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 176
+        width: 123
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5731707, y: 0.48214287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7311dc0b3b51f2c0800000000000000
+      internalID: -4399635051788037251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_007
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 647
+        width: 126
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5992063, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfe1984b8e3798d0800000000000000
+      internalID: -2839732272094908480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_008
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 834
+        width: 123
+        height: 113
+      alignment: 9
+      pivot: {x: 0.58943087, y: 0.539823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553d8cd72bffae5b0800000000000000
+      internalID: -5338173266214726827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_009
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 544
+        width: 120
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5875, y: 0.48514852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48af82752089e450800000000000000
+      internalID: 6118562467083692109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_010
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 72
+        width: 108
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f8dd8ffd7154240800000000000000
+      internalID: 4775249230616694535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_011
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 9
+        width: 105
+        height: 85
+      alignment: 9
+      pivot: {x: 0.47142857, y: 0.49411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d8f5be62a4d41c0800000000000000
+      internalID: -4517873320164618953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 114
+        height: 93
+      alignment: 9
+      pivot: {x: 0.49561402, y: 0.47311828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0a65d8d0e4f0af0800000000000000
+      internalID: -428037619464101719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_013
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 444
+        width: 113
+        height: 98
+      alignment: 9
+      pivot: {x: 0.53539824, y: 0.47959185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e2e00e365c21120800000000000000
+      internalID: 2383184185583873611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbBlue_014
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 470
+        width: 125
+        height: 104
+      alignment: 9
+      pivot: {x: 0.524, y: 0.48076922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7b24c1cf5fa99c0800000000000000
+      internalID: -3919550062517897289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_000
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 417
+        width: 119
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5514706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f78ae7a92a5b3210800000000000000
+      internalID: 1313742851265955830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_001
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 148
+        width: 128
+        height: 127
+      alignment: 9
+      pivot: {x: 0.53515625, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61179d4426b4be90800000000000000
+      internalID: -7010778452872195733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_002
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 415
+        width: 116
+        height: 137
+      alignment: 9
+      pivot: {x: 0.50431037, y: 0.50364965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7f37d6ec4e9fda0800000000000000
+      internalID: -5910441460696352838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_003
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1189
+        width: 117
+        height: 154
+      alignment: 9
+      pivot: {x: 0.491453, y: 0.52597404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949dab1bf49cfad40800000000000000
+      internalID: 5597914205966227785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_004
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 398
+        width: 115
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4826087, y: 0.52112675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b1950434e2b06e0800000000000000
+      internalID: -1870350353865041112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_005
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1197
+        width: 115
+        height: 146
+      alignment: 9
+      pivot: {x: 0.47391304, y: 0.5068493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bbca56cb1cd3d80800000000000000
+      internalID: -8269240325878531260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_006
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 832
+        width: 116
+        height: 138
+      alignment: 9
+      pivot: {x: 0.44396552, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c183286516e21bc60800000000000000
+      internalID: 7832092222572083228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_007
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 687
+        width: 115
+        height: 143
+      alignment: 9
+      pivot: {x: 0.40434784, y: 0.55244756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7b928995d8ce8f0800000000000000
+      internalID: -509877241855232028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_008
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 543
+        width: 111
+        height: 142
+      alignment: 9
+      pivot: {x: 0.44594595, y: 0.5422535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64df86d3c3672bc0800000000000000
+      internalID: -3807965267148942226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_009
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 703
+        width: 105
+        height: 129
+      alignment: 9
+      pivot: {x: 0.48095238, y: 0.51937985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ab161d8648f4760800000000000000
+      internalID: 7444314294791027247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_010
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 3
+        width: 100
+        height: 121
+      alignment: 9
+      pivot: {x: 0.505, y: 0.5123967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6216da0d0fc81850800000000000000
+      internalID: 6348051329702040170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_011
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1091
+        width: 103
+        height: 115
+      alignment: 9
+      pivot: {x: 0.51941746, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97ea84719eed61e0800000000000000
+      internalID: -2202842334221375587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_012
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 973
+        width: 97
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54310346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0728e149ba7f8fa0800000000000000
+      internalID: -5796279259309267185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_013
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 318
+        width: 102
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.4864865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73c514f1d1c87a60800000000000000
+      internalID: 7672095072713032572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrbRed_014
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 127
+        width: 111
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5538462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820440b2f79b0b700800000000000000
+      internalID: 554146710000255016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_000
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 685
+        width: 69
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf2b426ac7438d20800000000000000
+      internalID: 3279543888213913518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_001
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 538
+        width: 69
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4710145, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82005f04e11104d0800000000000000
+      internalID: -3170232991485001074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_002
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 538
+        width: 68
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4779412, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2348cc4c9160790a0800000000000000
+      internalID: -6875019598412086222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_003
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1341
+        width: 70
+        height: 143
+      alignment: 9
+      pivot: {x: 0.49285713, y: 0.48951048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9aa88a8e1297cd20800000000000000
+      internalID: 3298765911943064219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_004
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 394
+        width: 63
+        height: 144
+      alignment: 9
+      pivot: {x: 0.48412699, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c097ba1b012054b0800000000000000
+      internalID: -5453822817169076026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_005
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 685
+        width: 69
+        height: 145
+      alignment: 9
+      pivot: {x: 0.51449275, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e26075b00feeac50800000000000000
+      internalID: 6678538083760104162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_006
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 686
+        width: 68
+        height: 144
+      alignment: 9
+      pivot: {x: 0.52205884, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b895ae42aab93a630800000000000000
+      internalID: 3937161654318029195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_007
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 392
+        width: 69
+        height: 144
+      alignment: 9
+      pivot: {x: 0.5289855, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960deadb0bce67280800000000000000
+      internalID: -9045782557686312855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_008
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 540
+        width: 68
+        height: 144
+      alignment: 9
+      pivot: {x: 0.52205884, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7548204369a12ba0800000000000000
+      internalID: -6115420575249185410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_009
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 391
+        width: 68
+        height: 145
+      alignment: 9
+      pivot: {x: 0.50735295, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3c956b1cad08290800000000000000
+      internalID: -7890066021630229587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_010
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1193
+        width: 69
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848bbed03726da570800000000000000
+      internalID: 8479541919702825032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_011
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 248
+        width: 63
+        height: 144
+      alignment: 9
+      pivot: {x: 0.48412699, y: 0.49305555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea991b3291a30f560800000000000000
+      internalID: 7345434871888714158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_012
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 542
+        width: 67
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48951048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c626d78213b778610800000000000000
+      internalID: 1623401641753272940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_013
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 538
+        width: 68
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4779412, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d8176fc311072f0800000000000000
+      internalID: -977262165609050808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkellyArm_014
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 685
+        width: 67
+        height: 145
+      alignment: 9
+      pivot: {x: 0.4552239, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc548cbac0036c30800000000000000
+      internalID: 4351322535716215994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_000
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 555
+        width: 169
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af831d2525e939f70800000000000000
+      internalID: 9192865340807264506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_001
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 833
+        width: 165
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4878788, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd8273389ffb9510800000000000000
+      internalID: 1557119125349895635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_002
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 695
+        width: 147
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4931973, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90847f5f7decb3460800000000000000
+      internalID: 7222593854358636553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_003
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 277
+        width: 140
+        height: 136
+      alignment: 9
+      pivot: {x: 0.46785715, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bdf1ec39cedd430800000000000000
+      internalID: 3809460979387849481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_004
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 126
+        width: 144
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4409722, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8761cb3db4cf62b0800000000000000
+      internalID: -5589032295513102451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_005
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 693
+        width: 137
+        height: 137
+      alignment: 9
+      pivot: {x: 0.47810218, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c4312eb7b857da0800000000000000
+      internalID: -5947694368682718196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_006
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 265
+        width: 148
+        height: 137
+      alignment: 9
+      pivot: {x: 0.44256756, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ce3c19939436590800000000000000
+      internalID: -7682216027756434406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_007
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 554
+        width: 144
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4826389, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f2e9f81877dabe0800000000000000
+      internalID: -1464382905481548015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_008
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 404
+        width: 154
+        height: 137
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1805d0ff044b1dd20800000000000000
+      internalID: 3301618193089253505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_009
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 832
+        width: 161
+        height: 137
+      alignment: 9
+      pivot: {x: 0.51863354, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27849996e7c6181e0800000000000000
+      internalID: -2197355852986759054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_010
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 259
+        width: 156
+        height: 137
+      alignment: 9
+      pivot: {x: 0.49679488, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d60703d1d707a6c0800000000000000
+      internalID: -4132325535319128364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_011
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 832
+        width: 164
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4847561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd168caa26c08d860800000000000000
+      internalID: 7554801992825594335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_012
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 693
+        width: 164
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5030488, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e502ff948f8aa3c80800000000000000
+      internalID: -8342169575403610018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_013
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 832
+        width: 165
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4878788, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cfc20d7c7826ff0800000000000000
+      internalID: -44323754059432934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Bacon_014
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 558
+        width: 169
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5074074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50fb3574f380d180800000000000000
+      internalID: -9092622561698910116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_000
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1
+        width: 169
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5165289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a56982f155d46870800000000000000
+      internalID: 8675293330160575906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_001
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 125
+        width: 161
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5165289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145189a6cdf7594f0800000000000000
+      internalID: -822610772267363007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_002
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1071
+        width: 160
+        height: 120
+      alignment: 9
+      pivot: {x: 0.509375, y: 0.5208333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2756d95a2dd94b0800000000000000
+      internalID: -5431953966786841868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_003
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 290
+        width: 144
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5243056, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fe56b5a7c1a31c0800000000000000
+      internalID: -4523271563895247030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_004
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 576
+        width: 134
+        height: 125
+      alignment: 9
+      pivot: {x: 0.48134327, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffd3b53990b04940800000000000000
+      internalID: 5278412935355686909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_005
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 431
+        width: 141
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4574468, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bec1a0a84132e6a0800000000000000
+      internalID: -6421515930674540874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_006
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 971
+        width: 148
+        height: 125
+      alignment: 9
+      pivot: {x: 0.47635135, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263dd8dfc176f7ea0800000000000000
+      internalID: -5872862014857161886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_007
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 708
+        width: 146
+        height: 124
+      alignment: 9
+      pivot: {x: 0.48972604, y: 0.50403225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed64d3f6ce124be0800000000000000
+      internalID: -1494598286490440221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_008
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 949
+        width: 159
+        height: 120
+      alignment: 9
+      pivot: {x: 0.46855345, y: 0.5208333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23182cc1faae548b0800000000000000
+      internalID: -5168466959515090638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_009
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 971
+        width: 159
+        height: 124
+      alignment: 9
+      pivot: {x: 0.4811321, y: 0.50403225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdd94a9cf9f74d20800000000000000
+      internalID: 3262851318368820664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_010
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 2
+        width: 156
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4903846, y: 0.5165289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24971f3217a452290800000000000000
+      internalID: -7915838920238991038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_011
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 972
+        width: 163
+        height: 122
+      alignment: 9
+      pivot: {x: 0.506135, y: 0.51229507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c4d50467b971650800000000000000
+      internalID: 6203597943914449922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_012
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 972
+        width: 163
+        height: 122
+      alignment: 9
+      pivot: {x: 0.48773006, y: 0.51229507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02545390bb4e963c0800000000000000
+      internalID: -4365706871794481888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_013
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1
+        width: 165
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4939394, y: 0.5165289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af18867e97a21ba0800000000000000
+      internalID: -6119644644607778905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Mushroom_014
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 4
+        width: 169
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5208333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d448887313bd8a0800000000000000
+      internalID: -6279371140854690486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

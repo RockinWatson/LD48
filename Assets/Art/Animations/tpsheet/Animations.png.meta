@@ -1,0 +1,1572 @@
+fileFormatVersion: 2
+guid: 85559d60aeef2e849baab17b87f11fa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1091872098118745752
+    second: Garg-01_000
+  - first:
+      213: 5385655983711583923
+    second: Garg-01_001
+  - first:
+      213: 3924747870415586145
+    second: Garg-01_002
+  - first:
+      213: 6815188927642827560
+    second: Garg-01_003
+  - first:
+      213: 324310590802057814
+    second: Garg-01_004
+  - first:
+      213: 992276813995212951
+    second: Garg-01_005
+  - first:
+      213: 3180110087490053144
+    second: Garg-01_006
+  - first:
+      213: 8363250170452412951
+    second: Garg-01_007
+  - first:
+      213: 7265040705368137472
+    second: Garg-01_008
+  - first:
+      213: 6477154576117009779
+    second: Garg-01_009
+  - first:
+      213: 1482291552770590984
+    second: Garg-01_010
+  - first:
+      213: -5933592148641837505
+    second: Garg-01_011
+  - first:
+      213: -3562158740373515158
+    second: Garg-01_012
+  - first:
+      213: 764739379802882875
+    second: Garg-01_013
+  - first:
+      213: -6430049566477850274
+    second: Garg-01_014
+  - first:
+      213: -3395346317666797332
+    second: Garg-01_015
+  - first:
+      213: -6814404735316889563
+    second: Garg-01_016
+  - first:
+      213: 8298641567983047058
+    second: Garg-01_017
+  - first:
+      213: 4851671566514383697
+    second: Garg-01_018
+  - first:
+      213: -3119981856460466921
+    second: Garg-01_019
+  - first:
+      213: 1113292025835070939
+    second: Garg-01_020
+  - first:
+      213: 5537904695632186950
+    second: Garg-01_021
+  - first:
+      213: -7941363171577136063
+    second: Garg-01_022
+  - first:
+      213: -1841920755664308112
+    second: Garg-01_023
+  - first:
+      213: 2896551525794495296
+    second: Garg-01_024
+  - first:
+      213: -3230520897781430747
+    second: Garg-01_025
+  - first:
+      213: -1403464820233528375
+    second: Garg-01_026
+  - first:
+      213: 9027297124179098107
+    second: Garg-01_027
+  - first:
+      213: -2131601342595578631
+    second: Garg-01_028
+  - first:
+      213: -1497670972527874179
+    second: Garg-01_029
+  - first:
+      213: 6402836284929319185
+    second: Garg-02_000
+  - first:
+      213: 126401701233886424
+    second: Garg-02_001
+  - first:
+      213: 4314586774181622492
+    second: Garg-02_002
+  - first:
+      213: 5307759634693420765
+    second: Garg-02_003
+  - first:
+      213: 8427295059966746881
+    second: Garg-02_004
+  - first:
+      213: -8264831000849543929
+    second: Garg-02_005
+  - first:
+      213: -2593448402860735485
+    second: Garg-02_006
+  - first:
+      213: -7407248894222395813
+    second: Garg-02_007
+  - first:
+      213: 7825982401136028898
+    second: Garg-02_008
+  - first:
+      213: -6625377870011166380
+    second: Garg-02_009
+  - first:
+      213: 2029506165812200984
+    second: Garg-02_010
+  - first:
+      213: -9214518186532687201
+    second: Garg-02_011
+  - first:
+      213: 6550672547152065363
+    second: Garg-02_012
+  - first:
+      213: -6376729887773272983
+    second: Garg-02_013
+  - first:
+      213: -9085362924037687801
+    second: Garg-02_014
+  - first:
+      213: -4828157349546110897
+    second: Garg-02_015
+  - first:
+      213: 6581360979309068464
+    second: Garg-02_016
+  - first:
+      213: 7926625843590569498
+    second: Garg-02_017
+  - first:
+      213: -3495960192402296324
+    second: Garg-02_018
+  - first:
+      213: 569734079461885295
+    second: Garg-02_019
+  - first:
+      213: -8457912076583189543
+    second: Garg-02_020
+  - first:
+      213: -3873442309541391927
+    second: Garg-02_021
+  - first:
+      213: 7480843260621543992
+    second: Garg-02_022
+  - first:
+      213: -7113714925146191233
+    second: Garg-02_023
+  - first:
+      213: -4760004402769942790
+    second: Garg-02_024
+  - first:
+      213: -4697057319682799957
+    second: Garg-02_025
+  - first:
+      213: 5854614213618928707
+    second: Garg-02_026
+  - first:
+      213: 5719853693518260516
+    second: Garg-02_027
+  - first:
+      213: -8316508851266531576
+    second: Garg-02_028
+  - first:
+      213: -6329918473880526217
+    second: Garg-02_029
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Garg-01_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1739
+        width: 267
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861c87b9c14e8d0f0800000000000000
+      internalID: -1091872098118745752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1119
+        width: 262
+        height: 308
+      alignment: 9
+      pivot: {x: 0.4942748, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bef59f2591bdba40800000000000000
+      internalID: 5385655983711583923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 500
+        width: 256
+        height: 307
+      alignment: 9
+      pivot: {x: 0.48632812, y: 0.50162864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1638719d461877630800000000000000
+      internalID: 3924747870415586145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_003
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 810
+        width: 255
+        height: 307
+      alignment: 9
+      pivot: {x: 0.4882353, y: 0.50162864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b7355a83a649e50800000000000000
+      internalID: 6815188927642827560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_004
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1120
+        width: 244
+        height: 307
+      alignment: 9
+      pivot: {x: 0.47336066, y: 0.50162864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a57a993ce208400800000000000000
+      internalID: 324310590802057814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_005
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1435
+        width: 248
+        height: 304
+      alignment: 9
+      pivot: {x: 0.47782257, y: 0.5065789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7908a09418645cd00800000000000000
+      internalID: 992276813995212951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_006
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1741
+        width: 247
+        height: 306
+      alignment: 9
+      pivot: {x: 0.4757085, y: 0.503268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8142b7f8645022c20800000000000000
+      internalID: 3180110087490053144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_007
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1743
+        width: 247
+        height: 304
+      alignment: 9
+      pivot: {x: 0.4757085, y: 0.5065789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a8a8938bb301470800000000000000
+      internalID: 8363250170452412951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_008
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 197
+        width: 244
+        height: 304
+      alignment: 9
+      pivot: {x: 0.48155737, y: 0.5065789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f983a970c92d460800000000000000
+      internalID: 7265040705368137472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 809
+        width: 242
+        height: 308
+      alignment: 9
+      pivot: {x: 0.49380165, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d00c005c973e950800000000000000
+      internalID: 6477154576117009779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_010
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1130
+        width: 246
+        height: 303
+      alignment: 9
+      pivot: {x: 0.49796748, y: 0.5049505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80904705058229410800000000000000
+      internalID: 1482291552770590984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_011
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 835
+        width: 239
+        height: 297
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e082ad065a7ada0800000000000000
+      internalID: -5933592148641837505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_012
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1745
+        width: 250
+        height: 302
+      alignment: 9
+      pivot: {x: 0.518, y: 0.50993377}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64db7eaf7ba09ec0800000000000000
+      internalID: -3562158740373515158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_013
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 205
+        width: 247
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5040486, y: 0.5133333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3347e60a66ec9a00800000000000000
+      internalID: 764739379802882875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_014
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 519
+        width: 239
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5209205, y: 0.5167785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59eee5bcffd3c6a0800000000000000
+      internalID: -6430049566477850274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_015
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 517
+        width: 242
+        height: 300
+      alignment: 9
+      pivot: {x: 0.52272725, y: 0.5133333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce83a0e638e41e0d0800000000000000
+      internalID: -3395346317666797332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_016
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1438
+        width: 238
+        height: 303
+      alignment: 9
+      pivot: {x: 0.51890755, y: 0.5049505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52072bb5ffe5e61a0800000000000000
+      internalID: -6814404735316889563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_017
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 217
+        width: 241
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5165975, y: 0.51342285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2919be9b982ba2370800000000000000
+      internalID: 8298641567983047058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_018
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1134
+        width: 242
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5268595, y: 0.5066225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15be3f0a599945340800000000000000
+      internalID: 4851671566514383697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_019
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1442
+        width: 239
+        height: 301
+      alignment: 9
+      pivot: {x: 0.5251046, y: 0.50830567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715920c280993b4d0800000000000000
+      internalID: -3119981856460466921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_020
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 507
+        width: 239
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5292887, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5ac23f235337f00800000000000000
+      internalID: 1113292025835070939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_021
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1124
+        width: 247
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5283401, y: 0.49836066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ecf17caf69adc40800000000000000
+      internalID: 5537904695632186950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 246
+        height: 306
+      alignment: 9
+      pivot: {x: 0.54268295, y: 0.49673203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c76c5454c9ac190800000000000000
+      internalID: -7941363171577136063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_023
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 192
+        width: 244
+        height: 306
+      alignment: 9
+      pivot: {x: 0.52663934, y: 0.49673203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078b536e4de2076e0800000000000000
+      internalID: -1841920755664308112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_024
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 813
+        width: 254
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5098425, y: 0.49836066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bb890244e923820800000000000000
+      internalID: 2896551525794495296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_025
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 819
+        width: 264
+        height: 303
+      alignment: 9
+      pivot: {x: 0.4943182, y: 0.49834985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52603480c52ea23d0800000000000000
+      internalID: -3230520897781430747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_026
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1741
+        width: 256
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5175781, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb193f8e24e58ce0800000000000000
+      internalID: -1403464820233528375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_027
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 503
+        width: 261
+        height: 305
+      alignment: 9
+      pivot: {x: 0.50383145, y: 0.50163937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9b990e7e6674d70800000000000000
+      internalID: 9027297124179098107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_028
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1431
+        width: 266
+        height: 306
+      alignment: 9
+      pivot: {x: 0.4981203, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f448d36fd70b62e0800000000000000
+      internalID: -2131601342595578631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-01_029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1429
+        width: 266
+        height: 308
+      alignment: 9
+      pivot: {x: 0.5018797, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fef0c7f24373be0800000000000000
+      internalID: -1497670972527874179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_000
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1407
+        width: 161
+        height: 166
+      alignment: 9
+      pivot: {x: 0.50621116, y: 0.48493975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111a13e6da17bd850800000000000000
+      internalID: 6402836284929319185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_001
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1711
+        width: 158
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5031645, y: 0.48493975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d40d057da111c100800000000000000
+      internalID: 126401701233886424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_002
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1544
+        width: 161
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2b1bbbfcd70eb30800000000000000
+      internalID: 4314586774181622492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_003
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 9
+        width: 163
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48802397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6fe0b1443f8a940800000000000000
+      internalID: 5307759634693420765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_004
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1240
+        width: 163
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48181817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101e8b21534c3f470800000000000000
+      internalID: 8427295059966746881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_005
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1575
+        width: 162
+        height: 168
+      alignment: 9
+      pivot: {x: 0.49691358, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d0ab16efb6d4d80800000000000000
+      internalID: -8264831000849543929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_006
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 934
+        width: 162
+        height: 166
+      alignment: 9
+      pivot: {x: 0.49691358, y: 0.48493975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3048e241b68320cd0800000000000000
+      internalID: -2593448402860735485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 162
+        height: 171
+      alignment: 9
+      pivot: {x: 0.49691358, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5618f0406a243990800000000000000
+      internalID: -7407248894222395813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_008
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 766
+        width: 162
+        height: 166
+      alignment: 9
+      pivot: {x: 0.49691358, y: 0.48493975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eceb2ea7897b9c60800000000000000
+      internalID: 7825982401136028898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_009
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 327
+        width: 160
+        height: 167
+      alignment: 9
+      pivot: {x: 0.503125, y: 0.48802397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45110431eeded04a0800000000000000
+      internalID: -6625377870011166380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_010
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 933
+        width: 155
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5193548, y: 0.48802397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81683b2ea114a2c10800000000000000
+      internalID: 2029506165812200984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_011
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 496
+        width: 162
+        height: 167
+      alignment: 9
+      pivot: {x: 0.50308645, y: 0.48802397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92b75ba7847f1080800000000000000
+      internalID: -9214518186532687201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_012
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 764
+        width: 147
+        height: 167
+      alignment: 9
+      pivot: {x: 0.5544218, y: 0.48802397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353f6e489f9a8ea50800000000000000
+      internalID: 6550672547152065363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_013
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 8
+        width: 148
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5506757, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96458a2d3fd4187a0800000000000000
+      internalID: -6376729887773272983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_014
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 178
+        width: 151
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5397351, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706ba319e8e4ae180800000000000000
+      internalID: -9085362924037687801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_015
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 598
+        width: 162
+        height: 166
+      alignment: 9
+      pivot: {x: 0.50308645, y: 0.48493975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40dc94a870fefcb0800000000000000
+      internalID: -4828157349546110897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_016
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 665
+        width: 152
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5361842, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0855ee0f0b55b50800000000000000
+      internalID: 6581360979309068464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_017
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1716
+        width: 153
+        height: 163
+      alignment: 9
+      pivot: {x: 0.53267974, y: 0.4754601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e95aa2538010e60800000000000000
+      internalID: 7926625843590569498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_018
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1881
+        width: 155
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5258064, y: 0.48493975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf174f63abadb7fc0800000000000000
+      internalID: -3495960192402296324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_019
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 46
+        width: 161
+        height: 169
+      alignment: 9
+      pivot: {x: 0.50621116, y: 0.49408284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6582ce602a18e700800000000000000
+      internalID: 569734079461885295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_020
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 33
+        width: 158
+        height: 170
+      alignment: 9
+      pivot: {x: 0.51582277, y: 0.4970588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3c5cd37c57f9a80800000000000000
+      internalID: -8457912076583189543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_021
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 24
+        width: 154
+        height: 171
+      alignment: 9
+      pivot: {x: 0.52922076, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c111d9edb4ce3ac0800000000000000
+      internalID: -3873442309541391927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_022
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 32
+        width: 154
+        height: 171
+      alignment: 9
+      pivot: {x: 0.52922076, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ad8b17f4b41d760800000000000000
+      internalID: 7480843260621543992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_023
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 19
+        width: 162
+        height: 171
+      alignment: 9
+      pivot: {x: 0.50308645, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a444537f1074d90800000000000000
+      internalID: -7113714925146191233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_024
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 19
+        width: 159
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5062893, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af62a9b173111fdb0800000000000000
+      internalID: -4760004402769942790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_025
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 19
+        width: 162
+        height: 171
+      alignment: 9
+      pivot: {x: 0.49691358, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba688aaf043b0deb0800000000000000
+      internalID: -4697057319682799957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_026
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1271
+        width: 156
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5224359, y: 0.49408284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c85b3bb94cf3150800000000000000
+      internalID: 5854614213618928707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_027
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 348
+        width: 160
+        height: 169
+      alignment: 9
+      pivot: {x: 0.509375, y: 0.49408284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429ac5111a0016f40800000000000000
+      internalID: 5719853693518260516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_028
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1879
+        width: 159
+        height: 168
+      alignment: 9
+      pivot: {x: 0.5062893, y: 0.49107143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fcdd43343d59c80800000000000000
+      internalID: -8316508851266531576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garg-02_029
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1102
+        width: 160
+        height: 167
+      alignment: 9
+      pivot: {x: 0.503125, y: 0.48802397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7722b237fac9728a0800000000000000
+      internalID: -6329918473880526217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2292 @@
+fileFormatVersion: 2
+guid: e3960038fbb5af24da1fad546f7556ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1918431888892692274
+    second: Explode-Friendly_000
+  - first:
+      213: -1879695312798486884
+    second: Explode-Friendly_001
+  - first:
+      213: -3733059632454760289
+    second: Explode-Friendly_002
+  - first:
+      213: -2491434834507627469
+    second: Explode-Friendly_003
+  - first:
+      213: -2435873619487543714
+    second: Explode-Friendly_004
+  - first:
+      213: 1396241776845094578
+    second: Explode-Friendly_005
+  - first:
+      213: 2834151229372964124
+    second: Explode-Friendly_006
+  - first:
+      213: 1692927175956193001
+    second: Explode-Friendly_007
+  - first:
+      213: -5511640023011580776
+    second: Explode-Friendly_008
+  - first:
+      213: 5963061667893398837
+    second: Explode-Friendly_009
+  - first:
+      213: 3604210662937924500
+    second: Explode-Friendly_010
+  - first:
+      213: -887063105573539133
+    second: Explode-Friendly_011
+  - first:
+      213: -1168303285893727025
+    second: Explode-Friendly_012
+  - first:
+      213: -4125084591869128987
+    second: Explode-Friendly_013
+  - first:
+      213: 5165189552117953053
+    second: Explode-Friendly_014
+  - first:
+      213: -2279334630855599948
+    second: Explode-Friendly_015
+  - first:
+      213: -2961719705064887001
+    second: Explode-Friendly_016
+  - first:
+      213: 3824684475398445532
+    second: Explode-Friendly_017
+  - first:
+      213: -8169154352747098543
+    second: Explode-Friendly_018
+  - first:
+      213: -3995089555728200048
+    second: Explode-Friendly_019
+  - first:
+      213: 7507281345953322592
+    second: Explode-Friendly_020
+  - first:
+      213: 8889517918115058507
+    second: Explode-Friendly_021
+  - first:
+      213: -4297908347929472955
+    second: Explode-Friendly_022
+  - first:
+      213: -4817623444575044690
+    second: Explode-Friendly_023
+  - first:
+      213: -579468331952509405
+    second: Explode-Friendly_024
+  - first:
+      213: 3561587656792727195
+    second: Explode-Friendly_025
+  - first:
+      213: -7003635041784532386
+    second: Explode-Friendly_026
+  - first:
+      213: -4657677251184880744
+    second: Explode-Friendly_027
+  - first:
+      213: 668480329601946430
+    second: Explode-Friendly_028
+  - first:
+      213: 1817352288121165112
+    second: Explode-Friendly_029
+  - first:
+      213: -476917847409710357
+    second: Top-Olive_000
+  - first:
+      213: 7461707584568574279
+    second: Top-Olive_001
+  - first:
+      213: -1163507161467654242
+    second: Top-Olive_002
+  - first:
+      213: 1788232612618918072
+    second: Top-Olive_003
+  - first:
+      213: 5266214947268758545
+    second: Top-Olive_004
+  - first:
+      213: -7100451861130139360
+    second: Top-Olive_005
+  - first:
+      213: -8000735593370829393
+    second: Top-Olive_006
+  - first:
+      213: 6486443262540791498
+    second: Top-Olive_007
+  - first:
+      213: 1097604327020310920
+    second: Top-Olive_008
+  - first:
+      213: 5519522253302373597
+    second: Top-Olive_009
+  - first:
+      213: -6632106616474912322
+    second: Top-Olive_010
+  - first:
+      213: 6095066758426210628
+    second: Top-Olive_011
+  - first:
+      213: -3550421866395545859
+    second: Top-Olive_012
+  - first:
+      213: -1401961195055806011
+    second: Top-Olive_013
+  - first:
+      213: -7940457617140648971
+    second: Top-Olive_014
+  - first:
+      213: 7805137129771738761
+    second: Top-Pepper_000
+  - first:
+      213: -471933106706899819
+    second: Top-Pepper_001
+  - first:
+      213: -8151577018575973924
+    second: Top-Pepper_002
+  - first:
+      213: -1254104576157629234
+    second: Top-Pepper_003
+  - first:
+      213: 5356393961078556301
+    second: Top-Pepper_004
+  - first:
+      213: -8600423298990339055
+    second: Top-Pepper_005
+  - first:
+      213: -8995780412109431195
+    second: Top-Pepper_006
+  - first:
+      213: -4205956591565795098
+    second: Top-Pepper_007
+  - first:
+      213: 804081416803317358
+    second: Top-Pepper_008
+  - first:
+      213: 3144222572658479066
+    second: Top-Pepper_009
+  - first:
+      213: 2666521381113947724
+    second: Top-Pepper_010
+  - first:
+      213: 3503514499187989213
+    second: Top-Pepper_011
+  - first:
+      213: 1211121026226400768
+    second: Top-Pepper_012
+  - first:
+      213: -6999718521907289184
+    second: Top-Pepper_013
+  - first:
+      213: -1394855470089063675
+    second: Top-Pepper_014
+  - first:
+      213: -7766136953841693232
+    second: Top-Pine_000
+  - first:
+      213: -1495489740971358525
+    second: Top-Pine_001
+  - first:
+      213: 5434649905466330754
+    second: Top-Pine_002
+  - first:
+      213: 5778726968514556378
+    second: Top-Pine_003
+  - first:
+      213: 930823591129150768
+    second: Top-Pine_004
+  - first:
+      213: -8222901802349979806
+    second: Top-Pine_005
+  - first:
+      213: -7140551178598075948
+    second: Top-Pine_006
+  - first:
+      213: 6771405977910231009
+    second: Top-Pine_007
+  - first:
+      213: -2887304821588116499
+    second: Top-Pine_008
+  - first:
+      213: 8201449009840441671
+    second: Top-Pine_009
+  - first:
+      213: 5250840655383523408
+    second: Top-Pine_010
+  - first:
+      213: 8443001058170030432
+    second: Top-Pine_011
+  - first:
+      213: 3300734194637993060
+    second: Top-Pine_012
+  - first:
+      213: 4912452699874017679
+    second: Top-Pine_013
+  - first:
+      213: 8739167910907141134
+    second: Top-Pine_014
+  - first:
+      213: -8570807234761152767
+    second: Top-Roni_000
+  - first:
+      213: 6085918586934837277
+    second: Top-Roni_001
+  - first:
+      213: -7496212122842930442
+    second: Top-Roni_002
+  - first:
+      213: 1571115479860518572
+    second: Top-Roni_003
+  - first:
+      213: 3973278107072914020
+    second: Top-Roni_004
+  - first:
+      213: -8564636756880224560
+    second: Top-Roni_005
+  - first:
+      213: 1226511077290726444
+    second: Top-Roni_006
+  - first:
+      213: 1897295003583820412
+    second: Top-Roni_007
+  - first:
+      213: -8087160950019898037
+    second: Top-Roni_008
+  - first:
+      213: -6868320060713369397
+    second: Top-Roni_009
+  - first:
+      213: 725662407189868820
+    second: Top-Roni_010
+  - first:
+      213: 6666118546296479181
+    second: Top-Roni_011
+  - first:
+      213: -6576988104634758564
+    second: Top-Roni_012
+  - first:
+      213: 2519729380026136364
+    second: Top-Roni_013
+  - first:
+      213: -8811855828668624256
+    second: Top-Roni_014
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explode-Friendly_000
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1674
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 203.5, y: -196.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8f4c08c5c5065e0800000000000000
+      internalID: -1918431888892692274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_001
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 52
+        width: 248
+        height: 275
+      alignment: 9
+      pivot: {x: 0.46169356, y: 0.49636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9eeda2721bf9e5e0800000000000000
+      internalID: -1879695312798486884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_002
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1677
+        width: 363
+        height: 370
+      alignment: 9
+      pivot: {x: 0.45041323, y: 0.49054053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f980f2afa02813cc0800000000000000
+      internalID: -3733059632454760289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1655
+        width: 371
+        height: 392
+      alignment: 9
+      pivot: {x: 0.45687333, y: 0.50382656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334832cd735ac6dd0800000000000000
+      internalID: -2491434834507627469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1266
+        width: 375
+        height: 387
+      alignment: 9
+      pivot: {x: 0.46, y: 0.5103359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e23b059d9023ed0800000000000000
+      internalID: -2435873619487543714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 900
+        width: 386
+        height: 364
+      alignment: 9
+      pivot: {x: 0.47797927, y: 0.5068681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be79699f72706310800000000000000
+      internalID: 1396241776845094578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 542
+        width: 377
+        height: 356
+      alignment: 9
+      pivot: {x: 0.4867374, y: 0.5042135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d1382f68de45720800000000000000
+      internalID: 2834151229372964124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_007
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1318
+        width: 345
+        height: 357
+      alignment: 9
+      pivot: {x: 0.4942029, y: 0.53641456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee59790c4c7e7710800000000000000
+      internalID: 1692927175956193001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_008
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 200
+        width: 341
+        height: 340
+      alignment: 9
+      pivot: {x: 0.48240468, y: 0.50147057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894a19ad998b283b0800000000000000
+      internalID: -5511640023011580776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_009
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 575
+        width: 323
+        height: 323
+      alignment: 9
+      pivot: {x: 0.4876161, y: 0.51547986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dc8884efc01c250800000000000000
+      internalID: 5963061667893398837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198
+        width: 324
+        height: 342
+      alignment: 9
+      pivot: {x: 0.47993827, y: 0.5687134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4931714808ab40230800000000000000
+      internalID: 3604210662937924500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_011
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 267
+        width: 313
+        height: 306
+      alignment: 9
+      pivot: {x: 0.46166134, y: 0.53431374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c23fea2ec480b3f0800000000000000
+      internalID: -887063105573539133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_012
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1017
+        width: 295
+        height: 299
+      alignment: 9
+      pivot: {x: 0.4694915, y: 0.5367893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccf166f95a59cfe0800000000000000
+      internalID: -1168303285893727025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_013
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 329
+        width: 282
+        height: 282
+      alignment: 9
+      pivot: {x: 0.46276596, y: 0.53014183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee04395b61c0c6c0800000000000000
+      internalID: -4125084591869128987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_014
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 610
+        width: 274
+        height: 288
+      alignment: 9
+      pivot: {x: 0.4580292, y: 0.5329861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12bc8308807ea740800000000000000
+      internalID: 5165189552117953053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_015
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1026
+        width: 270
+        height: 290
+      alignment: 9
+      pivot: {x: 0.4425926, y: 0.50517243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81b9bca3d2e50e0800000000000000
+      internalID: -2279334630855599948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_016
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 613
+        width: 248
+        height: 285
+      alignment: 9
+      pivot: {x: 0.45362905, y: 0.5350877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d255fbe9bd5e6d0800000000000000
+      internalID: -2961719705064887001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_017
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1400
+        width: 242
+        height: 275
+      alignment: 9
+      pivot: {x: 0.44008264, y: 0.5109091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9531e2442041530800000000000000
+      internalID: 3824684475398445532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_018
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1775
+        width: 230
+        height: 272
+      alignment: 9
+      pivot: {x: 0.4326087, y: 0.52389705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e4c21f56551ae80800000000000000
+      internalID: -8169154352747098543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_019
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 5
+        width: 228
+        height: 260
+      alignment: 9
+      pivot: {x: 0.41885966, y: 0.5019231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e82f847379e88c0800000000000000
+      internalID: -3995089555728200048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_020
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 7
+        width: 213
+        height: 258
+      alignment: 9
+      pivot: {x: 0.4342723, y: 0.498062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066d67edb983f2860800000000000000
+      internalID: 7507281345953322592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_021
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1146
+        width: 234
+        height: 252
+      alignment: 9
+      pivot: {x: 0.41239315, y: 0.51785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43d7b5a279ed5b70800000000000000
+      internalID: 8889517918115058507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_022
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 656
+        width: 222
+        height: 242
+      alignment: 9
+      pivot: {x: 0.38513514, y: 0.5144628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5405a7cf023ca54c0800000000000000
+      internalID: -4297908347929472955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_023
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 428
+        width: 202
+        height: 226
+      alignment: 9
+      pivot: {x: 0.40346536, y: 0.49336284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabb284800d542db0800000000000000
+      internalID: -4817623444575044690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_024
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1554
+        width: 192
+        height: 219
+      alignment: 9
+      pivot: {x: 0.4140625, y: 0.49086758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ee16b4f9055f7f0800000000000000
+      internalID: -579468331952509405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_025
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1201
+        width: 170
+        height: 212
+      alignment: 9
+      pivot: {x: 0.43235293, y: 0.5023585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9edb8f8a1d4d6130800000000000000
+      internalID: 3561587656792727195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_026
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 718
+        width: 165
+        height: 203
+      alignment: 9
+      pivot: {x: 0.43939394, y: 0.49014777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5274fd49071ece90800000000000000
+      internalID: -7003635041784532386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_027
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 5
+        width: 162
+        height: 191
+      alignment: 9
+      pivot: {x: 0.44753087, y: 0.4947644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89315bca73b9c5fb0800000000000000
+      internalID: -4657677251184880744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_028
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 14
+        width: 161
+        height: 182
+      alignment: 9
+      pivot: {x: 0.4627329, y: 0.49175823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e339249615be64900800000000000000
+      internalID: 668480329601946430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Friendly_029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 156
+        height: 192
+      alignment: 9
+      pivot: {x: 0.4903846, y: 0.4921875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835943df648883910800000000000000
+      internalID: 1817352288121165112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_000
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1553
+        width: 169
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5165289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beaa91e9eb5a169f0800000000000000
+      internalID: -476917847409710357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_001
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 900
+        width: 162
+        height: 125
+      alignment: 9
+      pivot: {x: 0.50308645, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7414c0ca38f4d8760800000000000000
+      internalID: 7461707584568574279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_002
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1922
+        width: 162
+        height: 125
+      alignment: 9
+      pivot: {x: 0.47839507, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fe813b6646adfe0800000000000000
+      internalID: -1163507161467654242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_003
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1789
+        width: 132
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4810606, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b85be2361411d810800000000000000
+      internalID: 1788232612618918072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_004
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 900
+        width: 139
+        height: 124
+      alignment: 9
+      pivot: {x: 0.47122303, y: 0.50403225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c8ecac79a551940800000000000000
+      internalID: 5266214947268758545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_005
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 546
+        width: 141
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4574468, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029a390f6a0267d90800000000000000
+      internalID: -7100451861130139360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_006
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 591
+        width: 146
+        height: 125
+      alignment: 9
+      pivot: {x: 0.46917808, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadbe471e5da7f090800000000000000
+      internalID: -8000735593370829393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_007
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 912
+        width: 156
+        height: 125
+      alignment: 9
+      pivot: {x: 0.47115386, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace3877d7c9740a50800000000000000
+      internalID: 6486443262540791498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_008
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1030
+        width: 159
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4874214, y: 0.5165289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8813affe1597b3f00800000000000000
+      internalID: 1097604327020310920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_009
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1517
+        width: 165
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4878788, y: 0.5165289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc93f5ee38499c40800000000000000
+      internalID: 5519522253302373597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_010
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1800
+        width: 163
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48773006, y: 0.5208333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9be74bb2606f3a0800000000000000
+      internalID: -6632106616474912322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_011
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1272
+        width: 165
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5121212, y: 0.5208333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441394a7ce6069450800000000000000
+      internalID: 6095066758426210628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_012
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1153
+        width: 164
+        height: 117
+      alignment: 9
+      pivot: {x: 0.4847561, y: 0.53418803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfec6ba9f1e5abec0800000000000000
+      internalID: -3550421866395545859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_013
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 900
+        width: 164
+        height: 115
+      alignment: 9
+      pivot: {x: 0.49085367, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c901d398bb3b8ce0800000000000000
+      internalID: -1401961195055806011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Olive_014
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1027
+        width: 169
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53418803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f379481ed3ddc190800000000000000
+      internalID: -7940457617140648971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_000
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1931
+        width: 194
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5344828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986a14bbdda615c60800000000000000
+      internalID: 7805137129771738761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_001
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1562
+        width: 185
+        height: 121
+      alignment: 9
+      pivot: {x: 0.4972973, y: 0.5123967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c1df0075b5379f0800000000000000
+      internalID: -471933106706899819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_002
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1429
+        width: 172
+        height: 122
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd19a88f3e7cfde80800000000000000
+      internalID: -8151577018575973924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_003
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 900
+        width: 175
+        height: 124
+      alignment: 9
+      pivot: {x: 0.52, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4cee25886889ee0800000000000000
+      internalID: -1254104576157629234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_004
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 900
+        width: 177
+        height: 124
+      alignment: 9
+      pivot: {x: 0.50282484, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86822f9debb55a40800000000000000
+      internalID: 5356393961078556301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_005
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 1067
+        width: 178
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c00b9939825a880800000000000000
+      internalID: -8600423298990339055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_006
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1394
+        width: 165
+        height: 121
+      alignment: 9
+      pivot: {x: 0.46060607, y: 0.5123967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56edcca7061982380800000000000000
+      internalID: -8995780412109431195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_007
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1676
+        width: 169
+        height: 122
+      alignment: 9
+      pivot: {x: 0.4852071, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0120b93c071a5c0800000000000000
+      internalID: -4205956591565795098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_008
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1304
+        width: 173
+        height: 123
+      alignment: 9
+      pivot: {x: 0.48554912, y: 0.50406504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66fd03d9cba82b00800000000000000
+      internalID: 804081416803317358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_009
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1315
+        width: 182
+        height: 123
+      alignment: 9
+      pivot: {x: 0.489011, y: 0.50406504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfc21265c582ab20800000000000000
+      internalID: 3144222572658479066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_010
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1191
+        width: 181
+        height: 122
+      alignment: 9
+      pivot: {x: 0.48066297, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46e74b7113610520800000000000000
+      internalID: 2666521381113947724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_011
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1685
+        width: 187
+        height: 123
+      alignment: 9
+      pivot: {x: 0.51336896, y: 0.50406504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddad785efdbfe9030800000000000000
+      internalID: 3503514499187989213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_012
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1440
+        width: 184
+        height: 120
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.51666665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e2b341824cec010800000000000000
+      internalID: 1211121026226400768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_013
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1810
+        width: 193
+        height: 119
+      alignment: 9
+      pivot: {x: 0.4974093, y: 0.52100843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a36ef527110cde90800000000000000
+      internalID: -6999718521907289184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pepper_014
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1026
+        width: 192
+        height: 118
+      alignment: 9
+      pivot: {x: 0.49479166, y: 0.5254237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503b458175a74ace0800000000000000
+      internalID: -1394855470089063675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_000
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1646
+        width: 161
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50775194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd4b355693293490800000000000000
+      internalID: -7766136953841693232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_001
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1235
+        width: 154
+        height: 130
+      alignment: 9
+      pivot: {x: 0.49025974, y: 0.50384617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c649280104fe3be0800000000000000
+      internalID: -1495489740971358525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_002
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 673
+        width: 149
+        height: 128
+      alignment: 9
+      pivot: {x: 0.47315437, y: 0.51171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e4ee58b41cb6b40800000000000000
+      internalID: 5434649905466330754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_003
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 648
+        width: 126
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4563492, y: 0.50384617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1b7449f89223050800000000000000
+      internalID: 5778726968514556378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_004
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 518
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.48015872, y: 0.51171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0357ec9df13faec00800000000000000
+      internalID: 930823591129150768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_005
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 385
+        width: 124
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48790324, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2679208a06262ed80800000000000000
+      internalID: -8222901802349979806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_006
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 514
+        width: 136
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4742647, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d13a2b098aa7ec90800000000000000
+      internalID: -7140551178598075948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_007
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 458
+        width: 137
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48540145, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efbb474cddd8fd50800000000000000
+      internalID: 6771405977910231009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_008
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 647
+        width: 143
+        height: 131
+      alignment: 9
+      pivot: {x: 0.48601398, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debb7f6ff8b3ee7d0800000000000000
+      internalID: -2887304821588116499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_009
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 780
+        width: 151
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5264901, y: 0.50384617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749c40bdb6661d170800000000000000
+      internalID: 8201449009840441671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_010
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 803
+        width: 155
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050705481cbbed840800000000000000
+      internalID: 5250840655383523408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_011
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1367
+        width: 154
+        height: 131
+      alignment: 9
+      pivot: {x: 0.50974023, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069c87ebab09b2570800000000000000
+      internalID: 8443001058170030432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_012
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1039
+        width: 158
+        height: 131
+      alignment: 9
+      pivot: {x: 0.50949365, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464f16113409ecd20800000000000000
+      internalID: 3300734194637993060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_013
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 936
+        width: 158
+        height: 129
+      alignment: 9
+      pivot: {x: 0.49050632, y: 0.50775194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8146e704b98c2440800000000000000
+      internalID: 4912452699874017679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Pine_014
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1172
+        width: 159
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4937107, y: 0.50384617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cdc12b9e2c74970800000000000000
+      internalID: 8739167910907141134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_000
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1777
+        width: 194
+        height: 132
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5189394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107a6b5ea306e0980800000000000000
+      internalID: -8570807234761152767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_001
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1911
+        width: 185
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4972973, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10c232d5b6857450800000000000000
+      internalID: 6085918586934837277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_002
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 923
+        width: 173
+        height: 137
+      alignment: 9
+      pivot: {x: 0.49710983, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f268f87aca18f790800000000000000
+      internalID: -7496212122842930442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_003
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1916
+        width: 175
+        height: 131
+      alignment: 9
+      pivot: {x: 0.49142858, y: 0.52290076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae143e6439bdc510800000000000000
+      internalID: 1571115479860518572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_004
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1640
+        width: 176
+        height: 133
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5150376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462eae5136be32730800000000000000
+      internalID: 3973278107072914020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_005
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1911
+        width: 164
+        height: 136
+      alignment: 9
+      pivot: {x: 0.4695122, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de86eb3f3c442980800000000000000
+      internalID: -8564636756880224560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_006
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1415
+        width: 178
+        height: 137
+      alignment: 9
+      pivot: {x: 0.5168539, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24def29351750110800000000000000
+      internalID: 1226511077290726444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_007
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 61
+        width: 188
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72bcb2e0cb845a10800000000000000
+      internalID: 1897295003583820412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_008
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1062
+        width: 175
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4547aca6f1a4cf80800000000000000
+      internalID: -8087160950019898037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_009
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1415
+        width: 181
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48618785, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc08d717b43dea0a0800000000000000
+      internalID: -6868320060713369397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_010
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1911
+        width: 186
+        height: 136
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41138675d12121a00800000000000000
+      internalID: 725662407189868820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_011
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1637
+        width: 183
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5027322, y: 0.5036765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd15aecf7fc28c50800000000000000
+      internalID: 6666118546296479181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_012
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1500
+        width: 188
+        height: 135
+      alignment: 9
+      pivot: {x: 0.48404256, y: 0.5074074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a864b4a28d9b4a0800000000000000
+      internalID: -6576988104634758564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_013
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1775
+        width: 190
+        height: 134
+      alignment: 9
+      pivot: {x: 0.49473685, y: 0.51119405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27b2926580e7f220800000000000000
+      internalID: 2519729380026136364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top-Roni_014
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1775
+        width: 194
+        height: 134
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51119405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0825040afcff5b580800000000000000
+      internalID: -8811855828668624256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

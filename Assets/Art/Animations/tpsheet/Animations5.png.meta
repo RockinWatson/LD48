@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 667199167e43dcd42910208443b1b729
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1360616772432516199
+    second: Explode-Terrain_000
+  - first:
+      213: 2065381338255806030
+    second: Explode-Terrain_001
+  - first:
+      213: -1055017863737397762
+    second: Explode-Terrain_002
+  - first:
+      213: 3254189879859584631
+    second: Explode-Terrain_003
+  - first:
+      213: 7344347565693112266
+    second: Explode-Terrain_004
+  - first:
+      213: 4018751326946071324
+    second: Explode-Terrain_005
+  - first:
+      213: -2845778399143386412
+    second: Explode-Terrain_006
+  - first:
+      213: 3821557451845030898
+    second: Explode-Terrain_007
+  - first:
+      213: -8465418960443977397
+    second: Explode-Terrain_008
+  - first:
+      213: -2305463607007555797
+    second: Explode-Terrain_009
+  - first:
+      213: 4102230345467597898
+    second: Explode-Terrain_010
+  - first:
+      213: 4280959049398606774
+    second: Explode-Terrain_011
+  - first:
+      213: -7964492587462931812
+    second: Explode-Terrain_012
+  - first:
+      213: -3290134039117964394
+    second: Explode-Terrain_013
+  - first:
+      213: 4823291216772733639
+    second: Explode-Terrain_014
+  - first:
+      213: -8485012388717656618
+    second: Explode-Terrain_015
+  - first:
+      213: -8381646886180731657
+    second: Explode-Terrain_016
+  - first:
+      213: 5118086937398106897
+    second: Explode-Terrain_017
+  - first:
+      213: -1402755413703267561
+    second: Explode-Terrain_018
+  - first:
+      213: -8994418685182974554
+    second: Explode-Terrain_019
+  - first:
+      213: 7680371217031268434
+    second: Explode-Terrain_020
+  - first:
+      213: -5216997918342761268
+    second: Explode-Terrain_021
+  - first:
+      213: -3187159977827118806
+    second: Explode-Terrain_022
+  - first:
+      213: 8106053017428217646
+    second: Explode-Terrain_023
+  - first:
+      213: 3828981303606807899
+    second: Explode-Terrain_024
+  - first:
+      213: 527123411883249103
+    second: Explode-Terrain_025
+  - first:
+      213: -6068148763340081632
+    second: Explode-Terrain_026
+  - first:
+      213: -3986442981729435694
+    second: Explode-Terrain_027
+  - first:
+      213: 2277651953427361274
+    second: Explode-Terrain_028
+  - first:
+      213: -8255818189888887812
+    second: Explode-Terrain_029
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Explode-Terrain_000
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 750
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 405.5, y: -401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ba8bb114e1e1de0800000000000000
+      internalID: -1360616772432516199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_001
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1736
+        width: 283
+        height: 311
+      alignment: 9
+      pivot: {x: 0.52120143, y: 0.37942123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e45706265b9ac10800000000000000
+      internalID: 2065381338255806030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_002
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1112
+        width: 419
+        height: 460
+      alignment: 9
+      pivot: {x: 0.526253, y: 0.39347827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdad38b7d2db51f0800000000000000
+      internalID: -1055017863737397762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 640
+        height: 640
+      alignment: 9
+      pivot: {x: 0.5132812, y: 0.5421875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e93bc4474392d20800000000000000
+      internalID: 3254189879859584631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1392
+        width: 592
+        height: 655
+      alignment: 9
+      pivot: {x: 0.5008446, y: 0.54503816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf8420f23d5ce560800000000000000
+      internalID: 7344347565693112266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 740
+        width: 587
+        height: 650
+      alignment: 9
+      pivot: {x: 0.50170356, y: 0.5415385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1310432a0975c730800000000000000
+      internalID: 4018751326946071324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_006
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 753
+        width: 585
+        height: 637
+      alignment: 9
+      pivot: {x: 0.5188034, y: 0.544741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d22491af93c188d0800000000000000
+      internalID: -2845778399143386412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_007
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1421
+        width: 568
+        height: 626
+      alignment: 9
+      pivot: {x: 0.5325704, y: 0.5335463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f358f54146e80530800000000000000
+      internalID: 3821557451845030898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_008
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1434
+        width: 552
+        height: 613
+      alignment: 9
+      pivot: {x: 0.54257244, y: 0.52365416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4151e3ae4ac48a80800000000000000
+      internalID: -8465418960443977397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_009
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 151
+        width: 540
+        height: 600
+      alignment: 9
+      pivot: {x: 0.5361111, y: 0.515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f49b570195100e0800000000000000
+      internalID: -2305463607007555797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_010
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 862
+        width: 522
+        height: 570
+      alignment: 9
+      pivot: {x: 0.53352493, y: 0.5245614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a449c60c3cc0ee830800000000000000
+      internalID: 4102230345467597898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_011
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 307
+        width: 517
+        height: 553
+      alignment: 9
+      pivot: {x: 0.5367505, y: 0.5262206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbd56de295096b30800000000000000
+      internalID: 4280959049398606774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_012
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 896
+        width: 489
+        height: 536
+      alignment: 9
+      pivot: {x: 0.5245399, y: 0.5261194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a4a0c7030787190800000000000000
+      internalID: -7964492587462931812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_013
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 373
+        width: 471
+        height: 521
+      alignment: 9
+      pivot: {x: 0.5254777, y: 0.5278311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bd3f6f5881752d0800000000000000
+      internalID: -3290134039117964394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_014
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 387
+        width: 450
+        height: 507
+      alignment: 9
+      pivot: {x: 0.52111113, y: 0.5246548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca10088ec5cfe240800000000000000
+      internalID: 4823291216772733639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_015
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1562
+        width: 448
+        height: 485
+      alignment: 9
+      pivot: {x: 0.53459823, y: 0.52577317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d502bf103e2f3a80800000000000000
+      internalID: -8485012388717656618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_016
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1574
+        width: 424
+        height: 473
+      alignment: 9
+      pivot: {x: 0.5247642, y: 0.5285412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4407c90986eab80800000000000000
+      internalID: -8381646886180731657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_017
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 1592
+        width: 424
+        height: 455
+      alignment: 9
+      pivot: {x: 0.5129717, y: 0.51428574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b5e29e3f8170740800000000000000
+      internalID: 5118086937398106897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_018
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 1147
+        width: 391
+        height: 443
+      alignment: 9
+      pivot: {x: 0.52046037, y: 0.53047407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71be5732269688ce0800000000000000
+      internalID: -1402755413703267561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_019
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 477
+        width: 368
+        height: 419
+      alignment: 9
+      pivot: {x: 0.5095109, y: 0.5131265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5688c3cd76d2380800000000000000
+      internalID: -8994418685182974554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_020
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 1191
+        width: 348
+        height: 399
+      alignment: 9
+      pivot: {x: 0.5158046, y: 0.52130324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2588846fde8269a60800000000000000
+      internalID: 7680371217031268434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_021
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 9
+        width: 339
+        height: 376
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5106383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc43a3bb8008997b0800000000000000
+      internalID: -5216997918342761268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_022
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 22
+        width: 324
+        height: 349
+      alignment: 9
+      pivot: {x: 0.47993827, y: 0.50716335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21d54fe2eee4c3d0800000000000000
+      internalID: -3187159977827118806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_023
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 38
+        width: 307
+        height: 333
+      alignment: 9
+      pivot: {x: 0.49348533, y: 0.5015015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fca4a854c7e7070800000000000000
+      internalID: 8106053017428217646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_024
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 1729
+        width: 305
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5163934, y: 0.4811321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d88157536432530800000000000000
+      internalID: 3828981303606807899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_025
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 6
+        width: 285
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5245614, y: 0.46822742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdc71643f7b05700800000000000000
+      internalID: 527123411883249103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_026
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 25
+        width: 258
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5251938, y: 0.4642857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02673e4a9da99cba0800000000000000
+      internalID: -6068148763340081632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_027
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 201
+        width: 242
+        height: 274
+      alignment: 9
+      pivot: {x: 0.53512394, y: 0.45620438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dffaacaa3f4da8c0800000000000000
+      internalID: -3986442981729435694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_028
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 898
+        width: 220
+        height: 247
+      alignment: 9
+      pivot: {x: 0.56136364, y: 0.4331984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd23065268db9f10800000000000000
+      internalID: 2277651953427361274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode-Terrain_029
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 915
+        width: 201
+        height: 230
+      alignment: 9
+      pivot: {x: 0.58457714, y: 0.39565217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3e675f8117d6d80800000000000000
+      internalID: -8255818189888887812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
