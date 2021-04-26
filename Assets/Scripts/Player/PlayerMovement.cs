@@ -79,6 +79,9 @@ public class PlayerMovement : MonoBehaviour
         {
             _dash = true;
             _possibleDash = false;
+
+            Player.Get().SpawnDashFX();
+
             return;
         }
         //@NOTE: Turning off double tap to dash, cause it sucks.

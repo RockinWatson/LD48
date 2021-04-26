@@ -35,6 +35,9 @@ public class Player : MonoBehaviour
     private float _depth;
     public float GetDepthScale() { return _depth / _maximumDepth; }
 
+    [SerializeField] private GameObject _dashFX = null;
+    [SerializeField] private Transform _dashFXTransform = null;
+
     private void Awake()
     {
         _instance = this;
@@ -86,5 +89,11 @@ public class Player : MonoBehaviour
     {
         var heatLost = _temperatureLostPerMinute * Time.deltaTime / 60f;
         _temperature = Mathf.Max(0f, _temperature - heatLost);
+    }
+
+    public void SpawnDashFX()
+    {
+        var fx = Instantiate(_dashFX);
+        fx.transform.position = _dashFXTransform.position;
     }
 }
