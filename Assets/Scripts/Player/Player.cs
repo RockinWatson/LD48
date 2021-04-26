@@ -74,6 +74,7 @@ public class Player : MonoBehaviour
     public void AddToppings(float amount)
     {
         _depth = Mathf.Min(_depth + amount, _maximumDepth);
+        GameplayAudioInit.pickup.Play();
     }
 
     private void Update()
