@@ -37,6 +37,7 @@ Transform:
   - {fileID: 6443921751397370032}
   - {fileID: 4569593070698870202}
   - {fileID: 7554366885323718901}
+  - {fileID: 8216933825898601169}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -224,6 +225,8 @@ MonoBehaviour:
   _startingDepth: 0.5
   _dashFX: {fileID: 7897614513040634050, guid: 25705ebb7ff71b7469fa06dbfaff4cc3, type: 3}
   _dashFXTransform: {fileID: 7554366885323718901}
+  _doubleJumpFX: {fileID: 7897614513040634050, guid: 2a3934d8dda55894b8b385de7045149a, type: 3}
+  _doubleJumpFXTransform: {fileID: 8216933825898601169}
 --- !u!1 &4446646637571304630
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,6 +256,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1460495105605965028}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7285262511577658185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8216933825898601169}
+  m_Layer: 8
+  m_Name: DoubleJumpFXTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8216933825898601169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7285262511577658185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.21, y: -1.224, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1460495105605965028}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8552237116406586480
 GameObject:

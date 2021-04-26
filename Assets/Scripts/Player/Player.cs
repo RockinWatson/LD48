@@ -37,6 +37,8 @@ public class Player : MonoBehaviour
 
     [SerializeField] private GameObject _dashFX = null;
     [SerializeField] private Transform _dashFXTransform = null;
+    [SerializeField] private GameObject _doubleJumpFX = null;
+    [SerializeField] private Transform _doubleJumpFXTransform = null;
 
     private void Awake()
     {
@@ -95,5 +97,11 @@ public class Player : MonoBehaviour
     {
         var fx = Instantiate(_dashFX);
         fx.transform.position = _dashFXTransform.position;
+    }
+
+    public void SpawnDoubleJumpFX()
+    {
+        var fx = Instantiate(_doubleJumpFX);
+        fx.transform.position = _doubleJumpFXTransform.position;
     }
 }

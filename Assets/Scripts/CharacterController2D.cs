@@ -133,6 +133,7 @@ public class CharacterController2D : MonoBehaviour
 		{
 			if(!m_Grounded)
             {
+				Player.Get().SpawnDoubleJumpFX();
 				m_doubleJumpUsed = true;
 				m_Rigidbody2D.velocity = Vector2.zero;
 			}
