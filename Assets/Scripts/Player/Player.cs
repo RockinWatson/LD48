@@ -66,6 +66,11 @@ public class Player : MonoBehaviour
         _temperature = Mathf.Min(_temperature + heat, _maximumTemperature);
     }
 
+    public void AddToppings(float amount)
+    {
+        _depth = Mathf.Min(_depth + amount, _maximumDepth);
+    }
+
     private void Update()
     {
         UpdateTemperature();

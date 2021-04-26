@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2518437222260144651
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1556291580533870429, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eca7ef39a8f24ce4585e786fb5dca35e, type: 2}
+    - target: {fileID: 2588718322886164260, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7766136953841693232, guid: e3960038fbb5af24da1fad546f7556ae, type: 3}
+    - target: {fileID: 2797090434501128716, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eca7ef39a8f24ce4585e786fb5dca35e, type: 2}
+    - target: {fileID: 5824130051520683499, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7766136953841693232, guid: e3960038fbb5af24da1fad546f7556ae, type: 3}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965755716227532481, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327932693793947331, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
+      propertyPath: m_Name
+      value: ToppingPineapple
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b348a83350a624544a5cf7c36f31a602, type: 3}
