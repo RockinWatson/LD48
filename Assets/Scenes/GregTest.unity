@@ -331,6 +331,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 15109537, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 15558546801396434, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
       propertyPath: m_Name
       value: CameraSetup
@@ -347,13 +351,21 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1442337598}
+    - target: {fileID: 4317936318123356423, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4317936319076540377, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.51
       objectReference: {fileID: 0}
     - target: {fileID: 4317936319076540377, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: 0.011999473
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317936319076540378, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
+      propertyPath: orthographic size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8647053615964409431, guid: a8690638f5e75304d8806dcf527b0882, type: 3}
       propertyPath: m_RootOrder

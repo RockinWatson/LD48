@@ -47,6 +47,12 @@ TagManager:
   - name: WorldGeo
     uniqueID: 1974214049
     locked: 0
+  - name: Walls
+    uniqueID: 2528169543
+    locked: 0
+  - name: Ground
+    uniqueID: 3888013295
+    locked: 0
   - name: Player
     uniqueID: 2951090741
     locked: 0
