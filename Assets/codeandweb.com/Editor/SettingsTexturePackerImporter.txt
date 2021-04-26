@@ -1,9 +1,27 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Art/Animations/tpsheet/Animations.tpsheet
+- Assets/Art/Animations/tpsheet/Animations2.tpsheet
+- Assets/Art/Animations/tpsheet/Animations3.tpsheet
+- Assets/Art/Animations/tpsheet/Animations4.tpsheet
+- Assets/Art/Animations/tpsheet/Animations5.tpsheet
+- Assets/Art/Animations/tpsheet/Animations6.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
+- Assets/Art/Animations/tpsheet/Animations.png
+- Assets/Art/Animations/tpsheet/Animations2.png
+- Assets/Art/Animations/tpsheet/Animations3.png
+- Assets/Art/Animations/tpsheet/Animations4.png
+- Assets/Art/Animations/tpsheet/Animations5.png
+- Assets/Art/Animations/tpsheet/Animations6.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 enableDebugOutput: 0
