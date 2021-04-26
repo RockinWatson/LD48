@@ -7,9 +7,16 @@ public class AttackPlayerTrigger : MonoBehaviour
     [SerializeField] private float _attackDamage = 3f;
     [SerializeField] private float _knockBackForce = 200f;
 
+    private EnemyBase _enemyHost = null;
+
+    private void Awake()
+    {
+        _enemyHost = this.GetComponentInParent<EnemyBase>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && !_enemyHost.IsDead())
         {
             AttackPlayer();
         }
