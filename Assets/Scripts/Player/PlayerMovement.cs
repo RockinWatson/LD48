@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -43,12 +41,6 @@ public class PlayerMovement : MonoBehaviour
 
         UpdateDashMovement();
 
-        //var doJump = false;
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _jump = true;
-        }
-
         if (Input.GetButtonDown("Jump"))
         {
             _jump = true;
@@ -67,6 +59,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateDashMovement()
     {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            _dash = true;
+            _possibleDash = false;
+            return;
+        }
         if (_possibleDash)
         {
             _dashTimer += Time.deltaTime;
@@ -84,7 +82,6 @@ public class PlayerMovement : MonoBehaviour
                 {
                     // Let's dash!
                     _dash = true;
-
                     _possibleDash = false;
                 }
             }
