@@ -56,7 +56,7 @@ public class GameplayAudioInit : MonoBehaviour
         audio[5].volume = .5f;
         audio[6].volume = .5f;
         audio[7].volume = .5f;
-        audio[8].volume = 1f;
+        audio[8].volume = .2f;
         audio[9].volume = .5f;
         audio[10].volume = .5f;
 
