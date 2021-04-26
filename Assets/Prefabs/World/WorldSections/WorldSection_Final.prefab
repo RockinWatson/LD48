@@ -107,6 +107,92 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.3102264, y: 5.973069}
   m_EdgeRadius: 0
+--- !u!1 &4368043968498280068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4242086786156620925}
+  - component: {fileID: 3557346609124088203}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4242086786156620925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368043968498280068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6455411897979541361}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3557346609124088203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4368043968498280068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACQn+tNPGJQZQIAAAkFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty4jAQ/BVK5yVlvIbA3nYNIXvIo0K2cvFFyGOsQpZcegRIin/fkWxjh3BB7p4Zdc+M/Um4NDUwq/Ra8/xB5UB+jYg/kx+jnryHI90pueEf0MW88dyWPoiGmBdquUJ84tOMqsBqzn7LnfDBEYJO8kLpapXvIFXGGoQLKgwgpZX12RKhzxE54t944VNOeIpv/ekDT4todMYjA2lB96Fd4Hhykyz8b5a0CeP4ZjaP42gxna/G0W3IdpIJWtWQeyt9kZ/ztkoyDWESTbYR3hBTQnDTKiT2VIcOpLQ2Dv1hQM4pOg6yfHwJfFdar36Y/FQUBmwrWdPTkmtsXFOV/FFNNytq9o2udyqcv2eWBElNzYdv9HgS6EKr6r67dhL5K2zJ2f6Fnhg1dtDtIbz8qtvJAxV7uhXwVoJ8VGutnMyRtNr5VGcgXvaPF2dpCWzf443UK9DV32fWjdZ7OAfzx1Twauupm6QBNkKFdoeNAI2D+YuCw76YtgSiXsU/A690N1yslrjj2likWpfSy9sqp30oWYWeeTfOpkpLCHArugZJhT09Yxl7PcErbnDtFXNH/SvUXt5y3ZtxlRLgPj6KrqhndbgMy5Tq8ACmfHJWcAm9aE88Yp9SJWWzYMOedGkbpwvKBmk7x/Ovq0XYFopkmxdJErPpjM3GLJnRyTyZTmGbxItoTsLucYk+qXhuhLbtwanJvrjEPeu+LKO1pnVY9lzTw5p/VGrQci4LtWEaQD41FS7CQeMl+FLmq5xjgzZgLZdh3uQzI0KxPeTZpVAWnK6OVtOsr5KRmr8r65GMpOFTkpEzOf8HUEsDBBQAAAgIAACQn+t5aAATbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSclJqmklSSpqJiVGyqVmymW6yiVmioYWJqWlqkomRpYGFUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACQn+tNPGJQZQIAAAkFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACQn+t5aAATbQAAAHgAAAAJACQAAAAAAAAAAAAAALICAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAagMAAAAA
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 0
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 10
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
 --- !u!1001 &2307594989362588994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -217,6 +303,10 @@ PrefabInstance:
     - target: {fileID: 6925601711182596756, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_DrawMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925601711182596756, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7588045797115627898, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: _possiblePlayerStartPos

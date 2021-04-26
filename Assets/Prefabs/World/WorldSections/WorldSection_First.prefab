@@ -66,6 +66,92 @@ Transform:
   m_Father: {fileID: 6455411897979541361}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5317166751865875725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 392594393971099871}
+  - component: {fileID: 8329692987368216082}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &392594393971099871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317166751865875725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6455411897979541361}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8329692987368216082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5317166751865875725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACQn+vqoJAcbQIAABEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty4jAQ/BVK5yVlm0fw3nYdQvaQR4Vs5eKLsMdYhSy59AiQFP++I1lgh/UF0T0z6ukZ+4swoVsojFQrxcpHWQL5OSLuTH6MevIBDnQrxZp9wjnmnZWmdkHUx7xSwyTisUvTsgGjWPFLbLkLjhC0glVSNctyC5nURiNcUa4BKSWNyxYIfY3IAX/GqUs54im5dadPPKXR6ITHAoQB1YdGN7PIPZPZIqTEN9MUn0WUhszkZr5Ikmg2SZbj6NZXsaLgtGmhdC31xSZpqDGd+TCBzYYI11ghOWc6KCXm2HonMtpqi31iQMkodu7lufga2LY2TsEw+bmqNJhgi6LHO6bQwK4q+S07Vxuqd52uD8qtu2c+9ZK6mo//0ePY05WSzcP52jhyV5iaFbtXeiyoNgPXh/Ddd91W7Cnf0Q2H9xrEk1wpaUWJpFHWpVoNyV3/99JZVkOx6/FO6hVo28HsgtvnEbseTr75Q8ZZs/HjnXbAmktvt98MUDiYPyjY740OJRB1Kv5qeKPb4YIF4p4pbZAKXQonbyOtcqFk6T1z3ViTSSXAw0F0C4Jyc3zBMuZ6glfc4Nor5p66VylcHrjzG3KV4uE+PoquqBe5vwxL13L/CLp+toYzAb1oRzyhT5kUoluwoSfntLVVFS0GaVvLyu+rRaCCzTyO40mcTsppFY3nC5jArICqSOeLKpkRv3tMYJ+Uv3RCgz04NdEXF7hn5y/MaKVo65e9VHS/Yp+NHFjORCXXhQIQz12Fi3BQeAm+lOWyZGjQGoxhws+bfOWEy2IHZX4plPtOlwejaN5XyUnLPqRxSE4y/0nJyYmc/gFQSwMEFAAACAgAAJCf6wEVQ1NtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tFJqWmqSmaGhobGhpXGKSZqBrplFqnGqaXJqWrKlmUWakalSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAJCf6+qgkBxtAgAAEQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJCf6wEVQ1NtAAAAeAAAAAkAJAAAAAAAAAAAAAAAugIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAByAwAAAAA=
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 0
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 10
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
 --- !u!1001 &2307594989362588994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3266571555177818106, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_Name
-      value: WorldSectionTest_First
+      value: WorldSection_First
       objectReference: {fileID: 0}
     - target: {fileID: 3266571555177818106, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_IsActive
@@ -168,6 +254,10 @@ PrefabInstance:
     - target: {fileID: 6925601711182596756, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: m_DrawMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925601711182596756, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7588045797115627898, guid: 38327db9bbaed294face033e7977dbc0, type: 3}
       propertyPath: _possiblePlayerStartPos
