@@ -550,6 +550,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1442337599, guid: 1717fb3e92b38a5448d6ccec8cf9d475, type: 3}
+      propertyPath: m_DashForce
+      value: 1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1442337599, guid: 1717fb3e92b38a5448d6ccec8cf9d475, type: 3}
+      propertyPath: m_JumpForce
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 1460495105605965024, guid: 1717fb3e92b38a5448d6ccec8cf9d475, type: 3}
       propertyPath: m_Name
       value: Player

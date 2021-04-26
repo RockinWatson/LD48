@@ -392,6 +392,7 @@ GameObject:
   - component: {fileID: 6950802017916047138}
   - component: {fileID: 138167490339688492}
   - component: {fileID: 4225607619992809560}
+  - component: {fileID: 481786994116579516}
   m_Layer: 0
   m_Name: GoombaBop
   m_TagString: Untagged
@@ -441,6 +442,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ecf379a90d287c41a9d87ddedd0d5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &481786994116579516
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346474818737070580}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.09819007, y: -0.016795725}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.8061926, y: 0.1757198}
+  m_EdgeRadius: 0
 --- !u!1 &8707950565019814037
 GameObject:
   m_ObjectHideFlags: 0

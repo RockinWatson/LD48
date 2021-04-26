@@ -3,6 +3,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Animator _animator = null;
+    [SerializeField] private Animation[] _animations;
+
     [SerializeField] private float _movementSpeed = 1f;
 
     [SerializeField]
@@ -38,7 +40,9 @@ public class PlayerMovement : MonoBehaviour
     private void UpdatePlayerMovement()
     {
         _horizontalMove = Input.GetAxisRaw("Horizontal") * _movementSpeed;
-
+        
+        PlayerAnimation();
+        
         UpdateDashMovement();
 
         if (Input.GetButtonDown("Jump"))
@@ -55,6 +59,18 @@ public class PlayerMovement : MonoBehaviour
         //{
         //    _crouch = false;
         //}
+    }
+
+    private void PlayerAnimation()
+    {
+        if (_horizontalMove > 0 || _horizontalMove < 0)
+        {
+            _animator.Play("Player-Running");
+        }
+        else
+        {
+            _animator.Play("Player-Idle");
+        }
     }
 
     private void UpdateDashMovement()
