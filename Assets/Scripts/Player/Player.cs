@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(float damage)
     {
         _health -= damage;
+        GameplayAudioInit.playerDamage2.Play();
 
         Debug.Log("Health: " + _health);
         if (_health <= 0f)
