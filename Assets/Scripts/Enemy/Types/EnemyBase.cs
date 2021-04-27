@@ -8,8 +8,6 @@ public class EnemyBase : MonoBehaviour
 
     public GameObject explosion;
 
-    private CircleCollider2D[] _enemyColliders;
-
     public Animator _animator;
 
     private bool _isDead = false;

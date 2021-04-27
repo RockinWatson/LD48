@@ -29,7 +29,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        UpdatePlayerInput();
+        if (!Player.Get().IsDead())
+        {
+            UpdatePlayerInput();
+        }
     }
 
     private void UpdatePlayerInput()
