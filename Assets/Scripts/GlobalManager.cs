@@ -16,6 +16,7 @@ public class GlobalManager : MonoBehaviour
         if(_instance != null)
         {
             Destroy(this.gameObject);
+            return;
         }
 
         _instance = this;
