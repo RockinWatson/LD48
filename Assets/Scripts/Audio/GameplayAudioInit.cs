@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameplayAudioInit : MonoBehaviour
 {
 
-    public AudioSource levelMusic;
+    public static AudioSource levelMusic;
     public static AudioSource bounce;
     public static AudioSource chomp1;
     public static AudioSource chomp2;
@@ -18,6 +18,7 @@ public class GameplayAudioInit : MonoBehaviour
     public static AudioSource playerDamage1;
     public static AudioSource playerDamage2;
     public static AudioSource vaseBreak;
+    public static AudioSource pizzasHere;
 
     // Start is called before the first frame update
     void Awake()
@@ -47,6 +48,7 @@ public class GameplayAudioInit : MonoBehaviour
         playerDamage1 = audio[10];
         playerDamage2 = audio[11];
         vaseBreak = audio[12];
+        pizzasHere = audio[13];
 
         audio[0].volume = .85f;
         audio[1].volume = 1f;

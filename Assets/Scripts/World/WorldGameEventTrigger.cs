@@ -31,13 +31,14 @@ public class WorldGameEventTrigger : MonoBehaviour
         var depth = Player.Get().GetDepth();
         var heat = Player.Get().GetTemperature();
         GlobalManager.Get().SetGameWinStats(health, depth, heat);
-
         StartCoroutine(LoadGameOverScene());
 
     }
 
     IEnumerator LoadGameOverScene()
     {
+        GameplayAudioInit.levelMusic.mute = true;
+        GameplayAudioInit.pizzasHere.Play();
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("GameWIN");
     }
