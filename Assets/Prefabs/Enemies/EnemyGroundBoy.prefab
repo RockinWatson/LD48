@@ -45,9 +45,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.045194745, y: 0.43414524}
+  m_Offset: {x: 0.03605938, y: 0.50723004}
   serializedVersion: 2
-  m_Radius: 0.36030665
+  m_Radius: 0.47297907
 --- !u!114 &2421557857642158041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,10 +101,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7306736035792828347}
   - component: {fileID: 7306736035792828346}
-  - component: {fileID: 2434061323424269007}
   - component: {fileID: 5691989347491920714}
   - component: {fileID: 5883100730813405542}
   - component: {fileID: 1937586232454686673}
+  - component: {fileID: 659749217864237416}
   m_Layer: 9
   m_Name: EnemyGroundBoy
   m_TagString: Enemies
@@ -179,22 +179,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &2434061323424269007
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7306736035792828345}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.25095344, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.50404656
 --- !u!50 &5691989347491920714
 Rigidbody2D:
   serializedVersion: 4
@@ -250,6 +234,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &659749217864237416
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306736035792828345}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.25361633, y: -0.10289848}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.50621116, y: 0.48493975}
+    oldSize: {x: 1.61, y: 1.66}
+    newSize: {x: 1.51, y: 1.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9400549, y: 1.1118633}
+  m_EdgeRadius: 0
 --- !u!1 &8627082606627888583
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,9 +305,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.44647115, y: -0.18899697}
+  m_Offset: {x: 0.36659813, y: -0.22858453}
   serializedVersion: 2
-  m_Radius: 0.39317566
+  m_Radius: 0.5088935
 --- !u!114 &3762497997985975514
 MonoBehaviour:
   m_ObjectHideFlags: 0
