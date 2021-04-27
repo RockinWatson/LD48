@@ -7,11 +7,11 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float _movementSpeed = 1f;
 
-    [SerializeField]
-    private float _dashTimeThreshold = 0.5f;
-    private float _dashTimer = 0.0f;
-    private bool _possibleDash = false;
-    private float _possibleDashDirection = 0f;
+    //[SerializeField]
+    //private float _dashTimeThreshold = 0.5f;
+    //private float _dashTimer = 0.0f;
+    //private bool _possibleDash = false;
+    //private float _possibleDashDirection = 0f;
     private bool _dash = false;
 
     private CharacterController2D _characterController2D = null;
@@ -48,7 +48,9 @@ public class PlayerMovement : MonoBehaviour
         
         UpdateDashMovement();
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") ||
+            Input.GetKeyDown(KeyCode.W) ||
+            Input.GetKeyDown(KeyCode.UpArrow))
         {
             _jump = true;
             _animator?.SetBool("IsJumping", true);
@@ -78,10 +80,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateDashMovement()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") ||
+            Input.GetKeyDown(KeyCode.S) ||
+            Input.GetKeyDown(KeyCode.DownArrow))
         {
             _dash = true;
-            _possibleDash = false;
+            //_possibleDash = false;
 
             Player.Get().SpawnDashFX();
 
