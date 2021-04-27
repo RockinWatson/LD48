@@ -228,6 +228,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e96e8b942e47ec4194870aed81c1c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _heatTransferAmount: 20
+  explosion: {fileID: 4161226109538905638, guid: 5e79ccf969999684cae179128851b800, type: 3}
+  _animator: {fileID: 1937586232454686673}
 --- !u!95 &1937586232454686673
 Animator:
   serializedVersion: 3
