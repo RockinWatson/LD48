@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackPlayerTrigger : MonoBehaviour
+public class HostileEnvironment : MonoBehaviour
 {
     [SerializeField] private float _attackDamage = 3f;
     [SerializeField] private float _knockBackForce = 200f;
 
-    private EnemyBase _enemyHost = null;
+    [SerializeField] private bool _dieOnHit = true;
+    [SerializeField] private GameObject _explodeyFX = null;
 
     private void Awake()
     {
-        _enemyHost = this.GetComponentInParent<EnemyBase>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && !_enemyHost.IsDead())
+        if (collision.gameObject.tag == "Player")
         {
             AttackPlayer();
         }
@@ -39,5 +39,19 @@ public class AttackPlayerTrigger : MonoBehaviour
         }
 
         playerRigidBody.AddForce(direction * _knockBackForce);
+
+        if(_dieOnHit)
+        {
+            SpawnExplodey();
+
+            Destroy(this.gameObject);
+        }
+    }
+
+    private void SpawnExplodey()
+    {
+        var position = this.transform.position;
+        var explodey = Instantiate(_explodeyFX);
+        explodey.transform.position = position;
     }
 }
