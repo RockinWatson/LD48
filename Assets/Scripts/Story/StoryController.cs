@@ -208,13 +208,13 @@ public class StoryController : MonoBehaviour
         pickup = audio[5];
         ding = audio[6];
 
-        audio[0].volume = .8f;
-        audio[1].volume = .75f;
+        audio[0].volume = .7f;
+        audio[1].volume = .65f;
         audio[2].volume = 1f;
-        audio[3].volume = .6f;
-        audio[4].volume = .5f;
-        audio[5].volume = .5f;
-        audio[6].volume = .7f;
+        audio[3].volume = .5f;
+        audio[4].volume = .45f;
+        audio[5].volume = .45f;
+        audio[6].volume = .6f;
 
         introMusic.Play();
 
@@ -222,9 +222,9 @@ public class StoryController : MonoBehaviour
 
     private void FadeOut()
     {
-        if(introMusic.volume > 0.1)
+        if(introMusic.volume > 0.01)
         {
-            introMusic.volume -= .3f * Time.deltaTime;
+            introMusic.volume -= .28f * Time.deltaTime;
         }
         else
         {
