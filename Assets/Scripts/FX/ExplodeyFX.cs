@@ -8,8 +8,6 @@ public class ExplodeyFX : MonoBehaviour
     private float _lifeTime = 0f;
     private float _timer = 0f;
 
-    //private SpriteRenderer _sprite = null;
-
     private void Awake()
     {
         _animator = this.GetComponent<Animator>();
@@ -33,12 +31,5 @@ public class ExplodeyFX : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        //else
-        //{
-        //    var alpha = 1f - (_timer / _lifeTime);
-        //    var color = _sprite.color;
-        //    color.a = alpha;
-        //    _sprite.color = color;
-        //}
     }
 }

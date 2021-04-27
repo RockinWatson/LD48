@@ -6,6 +6,8 @@ public class PizzaHealth : MonoBehaviour
 {
     [SerializeField] private List<PizzaHealthSlice> _slices = null;
 
+    [SerializeField] private bool _isEndGame = false;
+
     private static PizzaHealth _instance = null;
     public static PizzaHealth Get() { return _instance; }
 
@@ -16,7 +18,15 @@ public class PizzaHealth : MonoBehaviour
 
     private void Update()
     {
-        var playerHealthPercent = Player.Get().GetHealthPercent();
+        float playerHealthPercent;
+        if (_isEndGame)
+        {
+            playerHealthPercent = GlobalManager.Get().GetPlayerHealthPercent();
+        }
+        else
+        {
+            playerHealthPercent = Player.Get().GetHealthPercent();
+        }
 
         float threshold = GetSinglePizzaPercent();
         float currentThrehold = threshold;

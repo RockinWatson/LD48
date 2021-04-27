@@ -89,32 +89,32 @@ public class PlayerMovement : MonoBehaviour
         }
         //@NOTE: Turning off double tap to dash, cause it sucks.
         return;
-        if (_possibleDash)
-        {
-            _dashTimer += Time.deltaTime;
-            if (_dashTimer >= _dashTimeThreshold)
-            {
-                _possibleDash = false;
-            }
-        }
-        if (Input.GetButtonDown("Horizontal"))
-        {
-            _dashTimer = 0f;
-            if (_possibleDash)
-            {
-                if (Mathf.Approximately(_horizontalMove, _possibleDashDirection))
-                {
-                    // Let's dash!
-                    _dash = true;
-                    _possibleDash = false;
-                }
-            }
-            else
-            {
-                _possibleDash = true;
-                _possibleDashDirection = _horizontalMove;
-            }
-        }
+        //if (_possibleDash)
+        //{
+        //    _dashTimer += Time.deltaTime;
+        //    if (_dashTimer >= _dashTimeThreshold)
+        //    {
+        //        _possibleDash = false;
+        //    }
+        //}
+        //if (Input.GetButtonDown("Horizontal"))
+        //{
+        //    _dashTimer = 0f;
+        //    if (_possibleDash)
+        //    {
+        //        if (Mathf.Approximately(_horizontalMove, _possibleDashDirection))
+        //        {
+        //            // Let's dash!
+        //            _dash = true;
+        //            _possibleDash = false;
+        //        }
+        //    }
+        //    else
+        //    {
+        //        _possibleDash = true;
+        //        _possibleDashDirection = _horizontalMove;
+        //    }
+        //}
     }
 
     public void OnLanding()
