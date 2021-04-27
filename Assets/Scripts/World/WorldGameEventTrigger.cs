@@ -10,6 +10,8 @@ public class WorldGameEventTrigger : MonoBehaviour
     }
     [SerializeField] private GameEvent _gameEvent;
 
+    private bool _hasGameEnded = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
@@ -25,7 +27,11 @@ public class WorldGameEventTrigger : MonoBehaviour
 
     private void EndGame()
     {
+        if (_hasGameEnded) return;
+
         Debug.Log("GAME OVER MAN... You Win...");
+
+        _hasGameEnded = true;
 
         var health = Player.Get().GetHealthPercent();
         var depth = Player.Get().GetDepth();
