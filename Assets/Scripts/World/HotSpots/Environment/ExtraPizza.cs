@@ -7,9 +7,11 @@ public class ExtraPizza : MonoBehaviour
     [SerializeField] private SpriteRenderer _startSprite = null;
     [SerializeField] private SpriteRenderer _deliveredSprite = null;
 
+    private bool isDelivered = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (!isDelivered && collision.gameObject.tag == "Player")
         {
             AddPizza();
         }
@@ -18,6 +20,8 @@ public class ExtraPizza : MonoBehaviour
     private void AddPizza()
     {
         PizzaHealth.Get().AddPizza();
+
+        isDelivered = true;
 
         //@TODO: SFX:
         //GameplayAudioInit.playerDamage1.Play();
