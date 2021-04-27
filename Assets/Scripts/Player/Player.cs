@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -81,6 +82,8 @@ public class Player : MonoBehaviour
         _isDead = true;
         this.gameObject.GetComponent<Animator>().Play("Player-Death");
         Debug.LogError("Player has Died");
+        GameplayAudioInit.playerDamage2.Play();
+        StartCoroutine(LoadGameOverScene());
     }
 
     public void AddHeat(float heat)
@@ -115,5 +118,11 @@ public class Player : MonoBehaviour
     {
         var fx = Instantiate(_doubleJumpFX);
         fx.transform.position = _doubleJumpFXTransform.position;
+    }
+
+    IEnumerator LoadGameOverScene()
+    {
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene("GameLose");
     }
 }
