@@ -93,6 +93,8 @@ public class WorldManager : MonoBehaviour
             {
                 newWorldSection = _finalSection;
                 _isFinalSectionCurrent = true;
+
+                CameraBackgroundBounds.Get().SetFinalCamera();
             }
             else
             {
