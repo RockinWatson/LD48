@@ -21,7 +21,7 @@ public class PizzaHealth : MonoBehaviour
         float playerHealthPercent;
         if (_isEndGame)
         {
-            playerHealthPercent = GlobalManager.Get().GetPlayerHealthPercent();
+            playerHealthPercent = GlobalManager.Get().GetPizzaHealthPercent();
         }
         else
         {

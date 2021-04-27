@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WorldGameEventTrigger : MonoBehaviour
 {
@@ -24,5 +25,12 @@ public class WorldGameEventTrigger : MonoBehaviour
     private void EndGame()
     {
         Debug.Log("GAME OVER MAN... You Win...");
+
+        var health = Player.Get().GetHealthPercent();
+        var depth = Player.Get().GetDepth();
+        var heat = Player.Get().GetTemperature();
+        GlobalManager.Get().SetGameWinStats(health, depth, heat);
+
+        SceneManager.LoadScene("GameWIN");
     }
 }

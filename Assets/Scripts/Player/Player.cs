@@ -30,11 +30,13 @@ public class Player : MonoBehaviour
     [SerializeField] private float _startingTemperature = 200f;
     private float _temperature;
     public float GetTemperatureScale() { return _temperature / _maximumTemperature; }
+    public float GetTemperature() { return _temperature; }
 
     [SerializeField] private float _maximumDepth = 200f;
     [SerializeField] private float _startingDepth = 0.5f;
     private float _depth;
     public float GetDepthScale() { return _depth / _maximumDepth; }
+    public float GetDepth() { return _depth; }
 
     [SerializeField] private GameObject _dashFX = null;
     [SerializeField] private Transform _dashFXTransform = null;
