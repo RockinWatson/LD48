@@ -718,6 +718,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6455411897979541361}
     m_Modifications:
+    - target: {fileID: 5691989347491920714, guid: 2601cbca414b19e41be46c38cc164d94, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7306736035792828345, guid: 2601cbca414b19e41be46c38cc164d94, type: 3}
       propertyPath: m_Name
       value: EnemyGroundBoy
