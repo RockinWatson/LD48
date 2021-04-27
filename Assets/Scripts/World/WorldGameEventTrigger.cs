@@ -45,7 +45,7 @@ public class WorldGameEventTrigger : MonoBehaviour
     {
         GameplayAudioInit.levelMusic.mute = true;
         GameplayAudioInit.pizzasHere.Play();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(3.5f);
         SceneManager.LoadScene("GameWIN");
     }
 
