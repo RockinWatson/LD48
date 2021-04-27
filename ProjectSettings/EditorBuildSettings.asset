@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GregTest.unity
     guid: ef2eaa889c648c54f8d72e3a579013c3
+  - enabled: 1
+    path: Assets/Scenes/GameLose.unity
+    guid: 17f8bd70cf149234c9bec53dca999c72
+  - enabled: 1
+    path: Assets/Scenes/GameWIN.unity
+    guid: c5a85a5758582c0419a55a364770e613
   m_configObjects: {}
