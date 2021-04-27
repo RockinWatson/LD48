@@ -10,6 +10,8 @@ public class StoryController : MonoBehaviour
     public static AudioSource portalMusic;
     public static AudioSource portalOpen;
     public static AudioSource startGame;
+    public static AudioSource phoneRing;
+    public static AudioSource pickup;
 
     private bool _right() { return (Input.GetKeyDown(KeyCode.RightArrow)); }
     private bool _left() { return (Input.GetKeyDown(KeyCode.LeftArrow)); }
@@ -97,11 +99,16 @@ public class StoryController : MonoBehaviour
             {
                 card3.transform.position = cardPos;
                 card2.transform.position = cardHidePos;
+                phoneRing.Play();
+                phoneRing.loop = true;
             }
             else if (card4.transform.position.x != cardPos.x)
             {
                 card4.transform.position = cardPos;
                 card3.transform.position = cardHidePos;
+                phoneRing.mute = true;
+                pickup.Play();
+                
             }
             else if (card5.transform.position.x != cardPos.x)
             {
@@ -190,11 +197,15 @@ public class StoryController : MonoBehaviour
         portalMusic = audio[1];
         portalOpen = audio[2];
         startGame = audio[3];
+        phoneRing = audio[4];
+        pickup = audio[5];
 
         audio[0].volume = .8f;
         audio[1].volume = .75f;
         audio[2].volume = 1f;
         audio[3].volume = .6f;
+        audio[4].volume = .5f;
+        audio[5].volume = .5f;
 
         introMusic.Play();
 
