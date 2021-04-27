@@ -20,7 +20,7 @@ public class ExtraPizza : MonoBehaviour
         PizzaHealth.Get().AddPizza();
 
         //@TODO: SFX:
-        //GameplayAudioInit.playerDamage1.Play();
+
         GameplayAudioInit.chomp1.Play();
 
         _startSprite.enabled = false;

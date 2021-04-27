@@ -60,7 +60,7 @@ public class GameplayAudioInit : MonoBehaviour
         audio[9].volume = .5f;
         audio[10].volume = .5f;
 
-        audio[0].mute = true;
+        audio[0].mute = false;
 
         /*Mutes all audio sources*/
         //for (int i = 0; i < audio.Length; i++)
