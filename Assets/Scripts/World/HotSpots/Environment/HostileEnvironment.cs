@@ -53,5 +53,6 @@ public class HostileEnvironment : MonoBehaviour
         var position = this.transform.position;
         var explodey = Instantiate(_explodeyFX);
         explodey.transform.position = position;
+        GameplayAudioInit.vaseBreak.Play();
     }
 }
