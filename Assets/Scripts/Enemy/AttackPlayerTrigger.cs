@@ -5,7 +5,7 @@ using UnityEngine;
 public class AttackPlayerTrigger : MonoBehaviour
 {
     [SerializeField] private float _attackDamage = 3f;
-    [SerializeField] private float _knockBackForce = 200f;
+    [SerializeField] private float _knockBackForce = 100f;
 
     private EnemyBase _enemyHost = null;
 

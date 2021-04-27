@@ -12,10 +12,12 @@ public class StoryController : MonoBehaviour
     public static AudioSource startGame;
     public static AudioSource phoneRing;
     public static AudioSource pickup;
+    public static AudioSource ding;
 
     private bool _right() { return (Input.GetKeyDown(KeyCode.RightArrow)); }
     private bool _left() { return (Input.GetKeyDown(KeyCode.LeftArrow)); }
     private bool _select() { return (Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return)); }
+    private bool _fade = false;
 
     private Vector3 cardPos;
     private Vector3 cardHidePos;
@@ -79,6 +81,10 @@ public class StoryController : MonoBehaviour
     void Update()
     {
         CardSelect();
+        if (_fade == true)
+        {
+            FadeOut();
+        }
     }
 
     private void CardSelect()
@@ -124,7 +130,7 @@ public class StoryController : MonoBehaviour
             {
                 card7.transform.position = cardPos;
                 card6.transform.position = cardHidePos;
-                
+                _fade = true;                
             }
             else if (card8.transform.position.x != cardPos.x)
             {
@@ -162,6 +168,7 @@ public class StoryController : MonoBehaviour
             {
                 card14.transform.position = cardPos;
                 card13.transform.position = cardHidePos;
+                ding.Play();
             }
             else if (card15.transform.position.x != cardPos.x)
             {
@@ -199,15 +206,29 @@ public class StoryController : MonoBehaviour
         startGame = audio[3];
         phoneRing = audio[4];
         pickup = audio[5];
+        ding = audio[6];
 
-        audio[0].volume = .8f;
-        audio[1].volume = .75f;
+        audio[0].volume = .7f;
+        audio[1].volume = .65f;
         audio[2].volume = 1f;
-        audio[3].volume = .6f;
-        audio[4].volume = .5f;
-        audio[5].volume = .5f;
+        audio[3].volume = .5f;
+        audio[4].volume = .45f;
+        audio[5].volume = .45f;
+        audio[6].volume = .6f;
 
         introMusic.Play();
 
+    }
+
+    private void FadeOut()
+    {
+        if(introMusic.volume > 0.01)
+        {
+            introMusic.volume -= .28f * Time.deltaTime;
+        }
+        else
+        {
+            introMusic.mute = true;
+        }
     }
 }

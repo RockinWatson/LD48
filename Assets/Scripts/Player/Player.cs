@@ -40,10 +40,17 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject _doubleJumpFX = null;
     [SerializeField] private Transform _doubleJumpFXTransform = null;
 
+    private bool _isDead = false;
+    public bool IsDead() { return _isDead; }
+
+    private bool _canTakeDmg = true;
+    public bool CanTakeDmg() { return _canTakeDmg; }
+
     private void Awake()
     {
         _instance = this;
 
+        _isDead = false;
         _characterController2D = this.GetComponent<CharacterController2D>();
         _rigidbody2D = this.GetComponent<Rigidbody2D>();
     }
@@ -59,15 +66,20 @@ public class Player : MonoBehaviour
     {
         _health -= damage;
 
+        Debug.Log("Health: " + _health);
         if (_health <= 0f)
         {
-            _health = 0f;
+            _canTakeDmg = false;
+            
+            //_health = 0f;
             Die();
         }
     }
 
     private void Die()
     {
+        _isDead = true;
+        this.gameObject.GetComponent<Animator>().Play("Player-Death");
         Debug.LogError("Player has Died");
     }
 
