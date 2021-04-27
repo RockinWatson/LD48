@@ -24,7 +24,7 @@ public class ExtraPizza : MonoBehaviour
         isDelivered = true;
 
         //@TODO: SFX:
-        //GameplayAudioInit.playerDamage1.Play();
+
         GameplayAudioInit.chomp1.Play();
 
         _startSprite.enabled = false;

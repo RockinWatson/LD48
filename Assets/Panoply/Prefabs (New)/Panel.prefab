@@ -45,19 +45,20 @@ Camera:
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00863061
-    y: 0.014563107
-    width: 0.9827388
-    height: 0.97087383
+    x: 0.0037537538
+    y: 0.0066755675
+    width: 0.9917418
+    height: 0.9866489
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 51.4249
+  field of view: 59.19894
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -134,14 +135,14 @@ MonoBehaviour:
     borderColor: {r: 0, g: 0, b: 0, a: 1}
     widthCalcMethod: 2
     heightCalcMethod: 2
-    pxTop: 1030
-    pxRight: 1738
+    pxTop: 749
+    pxRight: 1331.5555
     pxBottom: 0
     pxLeft: 0
-    pxWidth: 1738
-    pxHeight: 1030
-    pxCenterH: 869
-    pxCenterV: 515
+    pxWidth: 1331.5555
+    pxHeight: 749
+    pxCenterH: 665.7778
+    pxCenterV: 374.5
     isEditing: 0
   frameStateB:
     id: State 1
@@ -180,14 +181,14 @@ MonoBehaviour:
     borderColor: {r: 0, g: 0, b: 0, a: 1}
     widthCalcMethod: 2
     heightCalcMethod: 2
-    pxTop: 1030
-    pxRight: 1738
+    pxTop: 749
+    pxRight: 1331.5555
     pxBottom: 0
     pxLeft: 0
-    pxWidth: 1738
-    pxHeight: 1030
-    pxCenterH: 869
-    pxCenterV: 515
+    pxWidth: 1331.5555
+    pxHeight: 749
+    pxCenterH: 665.7778
+    pxCenterV: 374.5
     isEditing: 0
   cameraStateA:
     id: State 1
@@ -308,14 +309,14 @@ MonoBehaviour:
     borderColor: {r: 0, g: 0, b: 0, a: 1}
     widthCalcMethod: 2
     heightCalcMethod: 2
-    pxTop: 1030
-    pxRight: 1738
+    pxTop: 749
+    pxRight: 1331.5555
     pxBottom: 0
     pxLeft: 0
-    pxWidth: 1738
-    pxHeight: 1030
-    pxCenterH: 869
-    pxCenterV: 515
+    pxWidth: 1331.5555
+    pxHeight: 749
+    pxCenterH: 665.7778
+    pxCenterV: 374.5
     isEditing: 0
   frameStateScript:
   - (1) State 1
@@ -625,10 +626,10 @@ MonoBehaviour:
   disableCameraControl: 0
   frameRect:
     serializedVersion: 2
-    x: 15
-    y: 15
-    width: 1708
-    height: 1000
+    x: 5
+    y: 5
+    width: 1321
+    height: 739
   borderSize: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   matteColor: {r: 0, g: 0, b: 0, a: 0}
