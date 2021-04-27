@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,6 +32,14 @@ public class WorldGameEventTrigger : MonoBehaviour
         var heat = Player.Get().GetTemperature();
         GlobalManager.Get().SetGameWinStats(health, depth, heat);
 
+        StartCoroutine(LoadGameOverScene());
+
+    }
+
+    IEnumerator LoadGameOverScene()
+    {
+        yield return new WaitForSeconds(4);
         SceneManager.LoadScene("GameWIN");
     }
+
 }
