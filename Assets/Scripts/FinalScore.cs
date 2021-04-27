@@ -21,7 +21,7 @@ public class FinalScore : MonoBehaviour
 
         var score = depth * modifier;
 
-        var scoreString = $"Score: {score:n0}\n\nDepth: {depth:n0}\n\nHeat: {heat:n0}";
+        var scoreString = $"Depth: {depth:n0}\n\nx\n\nHeat: {modifier:n2}\n({heat:n0} degrees)\n\n=\n\nScore: {score:n0}";
 
         _text.text = scoreString;
     }
