@@ -128,4 +128,10 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(4);
         SceneManager.LoadScene("GameLose");
     }
+
+    public bool IsDashing()
+    {
+        var dashSpeed = 18f;
+        return _rigidbody2D.velocity.sqrMagnitude >= dashSpeed * dashSpeed;
+    }
 }
