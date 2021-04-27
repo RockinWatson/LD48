@@ -6,6 +6,8 @@ public class Topping : MonoBehaviour
 {
     [SerializeField] private float _toppingAmount = 5f;
 
+    [SerializeField] private GameObject _explodeyFX = null;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -18,9 +20,15 @@ public class Topping : MonoBehaviour
     {
         Player.Get().AddToppings(_toppingAmount);
 
-        //@TODO: Toppings SFX:
-        //GameplayAudioInit.playerDamage1.Play();
+        SpawnExplodey();
 
         Destroy(this.gameObject);
+    }
+
+    private void SpawnExplodey()
+    {
+        var position = this.transform.position;
+        var explodey = Instantiate(_explodeyFX);
+        explodey.transform.position = position;
     }
 }
